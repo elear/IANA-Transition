@@ -1,0 +1,913 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" 
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head profile="http://www.w3.org/2006/03/hcard http://dublincore.org/documents/2008/08/04/dc-html/">
+  <meta http-equiv="Content-Type" content="text/html; charset=us-ascii" />
+
+  <title>Draft Response to the Internet Coordination Group Request for Proposals on IANA </title>
+
+  <style type="text/css" title="Xml2Rfc (sans serif)">
+  /*<![CDATA[*/
+	  a {
+	  text-decoration: none;
+	  }
+	  a.smpl {
+	  color: black;
+	  }
+	  a:hover {
+	  text-decoration: underline;
+	  }
+	  a:active {
+	  text-decoration: underline;
+	  }
+	  address {
+	  margin-top: 1em;
+	  margin-left: 2em;
+	  font-style: normal;
+	  }
+	  body {
+	  color: black;
+	  font-family: verdana, helvetica, arial, sans-serif;
+	  font-size: 10pt;
+	  max-width: 55em;
+	  
+	  }
+	  cite {
+	  font-style: normal;
+	  }
+	  dd {
+	  margin-right: 2em;
+	  }
+	  dl {
+	  margin-left: 2em;
+	  }
+	
+	  ul.empty {
+	  list-style-type: none;
+	  }
+	  ul.empty li {
+	  margin-top: .5em;
+	  }
+	  dl p {
+	  margin-left: 0em;
+	  }
+	  dt {
+	  margin-top: .5em;
+	  }
+	  h1 {
+	  font-size: 14pt;
+	  line-height: 21pt;
+	  page-break-after: avoid;
+	  }
+	  h1.np {
+	  page-break-before: always;
+	  }
+	  h1 a {
+	  color: #333333;
+	  }
+	  h2 {
+	  font-size: 12pt;
+	  line-height: 15pt;
+	  page-break-after: avoid;
+	  }
+	  h3, h4, h5, h6 {
+	  font-size: 10pt;
+	  page-break-after: avoid;
+	  }
+	  h2 a, h3 a, h4 a, h5 a, h6 a {
+	  color: black;
+	  }
+	  img {
+	  margin-left: 3em;
+	  }
+	  li {
+	  margin-left: 2em;
+	  margin-right: 2em;
+	  }
+	  ol {
+	  margin-left: 2em;
+	  margin-right: 2em;
+	  }
+	  ol p {
+	  margin-left: 0em;
+	  }
+	  p {
+	  margin-left: 2em;
+	  margin-right: 2em;
+	  }
+	  pre {
+	  margin-left: 3em;
+	  background-color: lightyellow;
+	  padding: .25em;
+	  }
+	  pre.text2 {
+	  border-style: dotted;
+	  border-width: 1px;
+	  background-color: #f0f0f0;
+	  width: 69em;
+	  }
+	  pre.inline {
+	  background-color: white;
+	  padding: 0em;
+	  }
+	  pre.text {
+	  border-style: dotted;
+	  border-width: 1px;
+	  background-color: #f8f8f8;
+	  width: 69em;
+	  }
+	  pre.drawing {
+	  border-style: solid;
+	  border-width: 1px;
+	  background-color: #f8f8f8;
+	  padding: 2em;
+	  }
+	  table {
+	  margin-left: 2em;
+	  }
+	  table.tt {
+	  vertical-align: top;
+	  }
+	  table.full {
+	  border-style: outset;
+	  border-width: 1px;
+	  }
+	  table.headers {
+	  border-style: outset;
+	  border-width: 1px;
+	  }
+	  table.tt td {
+	  vertical-align: top;
+	  }
+	  table.full td {
+	  border-style: inset;
+	  border-width: 1px;
+	  }
+	  table.tt th {
+	  vertical-align: top;
+	  }
+	  table.full th {
+	  border-style: inset;
+	  border-width: 1px;
+	  }
+	  table.headers th {
+	  border-style: none none inset none;
+	  border-width: 1px;
+	  }
+	  table.left {
+	  margin-right: auto;
+	  }
+	  table.right {
+	  margin-left: auto;
+	  }
+	  table.center {
+	  margin-left: auto;
+	  margin-right: auto;
+	  }
+	  caption {
+	  caption-side: bottom;
+	  font-weight: bold;
+	  font-size: 9pt;
+	  margin-top: .5em;
+	  }
+	
+	  table.header {
+	  border-spacing: 1px;
+	  width: 95%;
+	  font-size: 10pt;
+	  color: white;
+	  }
+	  td.top {
+	  vertical-align: top;
+	  }
+	  td.topnowrap {
+	  vertical-align: top;
+	  white-space: nowrap; 
+	  }
+	  table.header td {
+	  background-color: gray;
+	  width: 50%;
+	  }
+	  table.header a {
+	  color: white;
+	  }
+	  td.reference {
+	  vertical-align: top;
+	  white-space: nowrap;
+	  padding-right: 1em;
+	  }
+	  thead {
+	  display:table-header-group;
+	  }
+	  ul.toc, ul.toc ul {
+	  list-style: none;
+	  margin-left: 1.5em;
+	  margin-right: 0em;
+	  padding-left: 0em;
+	  }
+	  ul.toc li {
+	  line-height: 150%;
+	  font-weight: bold;
+	  font-size: 10pt;
+	  margin-left: 0em;
+	  margin-right: 0em;
+	  }
+	  ul.toc li li {
+	  line-height: normal;
+	  font-weight: normal;
+	  font-size: 9pt;
+	  margin-left: 0em;
+	  margin-right: 0em;
+	  }
+	  li.excluded {
+	  font-size: 0pt;
+	  }
+	  ul p {
+	  margin-left: 0em;
+	  }
+	
+	  .comment {
+	  background-color: yellow;
+	  }
+	  .center {
+	  text-align: center;
+	  }
+	  .error {
+	  color: red;
+	  font-style: italic;
+	  font-weight: bold;
+	  }
+	  .figure {
+	  font-weight: bold;
+	  text-align: center;
+	  font-size: 9pt;
+	  }
+	  .filename {
+	  color: #333333;
+	  font-weight: bold;
+	  font-size: 12pt;
+	  line-height: 21pt;
+	  text-align: center;
+	  }
+	  .fn {
+	  font-weight: bold;
+	  }
+	  .hidden {
+	  display: none;
+	  }
+	  .left {
+	  text-align: left;
+	  }
+	  .right {
+	  text-align: right;
+	  }
+	  .title {
+	  color: #990000;
+	  font-size: 18pt;
+	  line-height: 18pt;
+	  font-weight: bold;
+	  text-align: center;
+	  margin-top: 36pt;
+	  }
+	  .vcardline {
+	  display: block;
+	  }
+	  .warning {
+	  font-size: 14pt;
+	  background-color: yellow;
+	  }
+	
+	
+	  @media print {
+	  .noprint {
+		display: none;
+	  }
+	
+	  a {
+		color: black;
+		text-decoration: none;
+	  }
+	
+	  table.header {
+		width: 90%;
+	  }
+	
+	  td.header {
+		width: 50%;
+		color: black;
+		background-color: white;
+		vertical-align: top;
+		font-size: 12pt;
+	  }
+	
+	  ul.toc a::after {
+		content: leader('.') target-counter(attr(href), page);
+	  }
+	
+	  ul.ind li li a {
+		content: target-counter(attr(href), page);
+	  }
+	
+	  .print2col {
+		column-count: 2;
+		-moz-column-count: 2;
+		column-fill: auto;
+	  }
+	  }
+	
+	  @page {
+	  @top-left {
+		   content: "Internet-Draft"; 
+	  } 
+	  @top-right {
+		   content: "December 2010"; 
+	  } 
+	  @top-center {
+		   content: "Abbreviated Title";3
+	  } 
+	  @bottom-left {
+		   content: "Doe"; 
+	  } 
+	  @bottom-center {
+		   content: "Expires June 2011"; 
+	  } 
+	  @bottom-right {
+		   content: "[Page " counter(page) "]"; 
+	  } 
+	  }
+	
+	  @page:first { 
+		@top-left {
+		  content: normal;
+		}
+		@top-right {
+		  content: normal;
+		}
+		@top-center {
+		  content: normal;
+		}
+	  }
+  /*]]>*/
+  </style>
+
+  <link href="#rfc.toc" rel="Contents"/>
+<link href="#rfc.section.1" rel="Chapter" title="1 IETF Introduction"/>
+<link href="#rfc.section.2" rel="Chapter" title="2 The Formal RFP Response"/>
+<link href="#rfc.section.3" rel="Chapter" title="3 Acknowledgments"/>
+<link href="#rfc.references" rel="Chapter" title="4 Informative References"/>
+<link href="#rfc.authors" rel="Chapter"/>
+
+
+  <meta name="generator" content="xml2rfc version 2.4.0 - http://tools.ietf.org/tools/xml2rfc" />
+  <link rel="schema.dct" href="http://purl.org/dc/terms/" />
+
+  <meta name="dct.creator" content="Lear, E., Ed. and R. Housley, Ed." />
+  <meta name="dct.identifier" content="urn:ietf:id:draft-lear-iana-icg-response-00" />
+  <meta name="dct.issued" scheme="ISO8601" content="2014-9-01" />
+  <meta name="dct.abstract" content="This document contains the a draft response to a request for proposals from the IANA Stewardship Transition Coordination Group regarding the protocol parameters registries.  It is meant to be included in an aggregate proposal that also includes contributions covering names and addresses that will be submitted from their respective operational communities.  The IETF community is invited to comment and propose changes to this document.  " />
+  <meta name="description" content="This document contains the a draft response to a request for proposals from the IANA Stewardship Transition Coordination Group regarding the protocol parameters registries.  It is meant to be included in an aggregate proposal that also includes contributions covering names and addresses that will be submitted from their respective operational communities.  The IETF community is invited to comment and propose changes to this document.  " />
+
+</head>
+
+<body>
+
+  <table class="header">
+    <tbody>
+    
+    	<tr>
+  <td class="left">Network Working Group</td>
+  <td class="right">E. Lear, Ed.</td>
+</tr>
+<tr>
+  <td class="left">Internet-Draft</td>
+  <td class="right">R. Housley, Ed.</td>
+</tr>
+<tr>
+  <td class="left">Intended status: Informational</td>
+  <td class="right">September 01, 2014</td>
+</tr>
+<tr>
+  <td class="left">Expires: March 05, 2015</td>
+  <td class="right"></td>
+</tr>
+
+    	
+    </tbody>
+  </table>
+
+  <p class="title">Draft Response to the Internet Coordination Group Request for Proposals on IANA <br />
+  <span class="filename">draft-lear-iana-icg-response-00</span></p>
+  
+  <h1 id="rfc.abstract">
+  <a href="#rfc.abstract">Abstract</a>
+</h1>
+<p>This document contains the a draft response to a request for proposals from the IANA Stewardship Transition Coordination Group regarding the protocol parameters registries.  It is meant to be included in an aggregate proposal that also includes contributions covering names and addresses that will be submitted from their respective operational communities.  The IETF community is invited to comment and propose changes to this document.  </p>
+<h1 id="rfc.status">
+  <a href="#rfc.status">Status of This Memo</a>
+</h1>
+<p>This Internet-Draft is submitted in full conformance with the provisions of BCP 78 and BCP 79.</p>
+<p>Internet-Drafts are working documents of the Internet Engineering Task Force (IETF).  Note that other groups may also distribute working documents as Internet-Drafts.  The list of current Internet-Drafts is at http://datatracker.ietf.org/drafts/current/.</p>
+<p>Internet-Drafts are draft documents valid for a maximum of six months and may be updated, replaced, or obsoleted by other documents at any time.  It is inappropriate to use Internet-Drafts as reference material or to cite them other than as "work in progress."</p>
+<p>This Internet-Draft will expire on March 05, 2015.</p>
+<h1 id="rfc.copyrightnotice">
+  <a href="#rfc.copyrightnotice">Copyright Notice</a>
+</h1>
+<p>Copyright (c) 2014 IETF Trust and the persons identified as the document authors.  All rights reserved.</p>
+<p>This document is subject to BCP 78 and the IETF Trust's Legal Provisions Relating to IETF Documents (http://trustee.ietf.org/license-info) in effect on the date of publication of this document.  Please review these documents carefully, as they describe your rights and restrictions with respect to this document.  Code Components extracted from this document must include Simplified BSD License text as described in Section 4.e of the Trust Legal Provisions and are provided without warranty as described in the Simplified BSD License.</p>
+
+  
+  <hr class="noprint" />
+  <h1 class="np" id="rfc.toc"><a href="#rfc.toc">Table of Contents</a></h1>
+  <ul class="toc">
+
+  	<li>1.   <a href="#rfc.section.1">IETF Introduction</a></li>
+<li>2.   <a href="#rfc.section.2">The Formal RFP Response</a></li>
+<li>3.   <a href="#rfc.section.3">Acknowledgments</a></li>
+<li>4.   <a href="#rfc.references">Informative References</a></li>
+<li><a href="#rfc.authors">Authors' Addresses</a></li>
+
+
+  </ul>
+
+  <h1 id="rfc.section.1"><a href="#rfc.section.1">1.</a> IETF Introduction</h1>
+<p id="rfc.section.1.p.1">In March of 2014 the U.S. National Telecommunications &amp; Information Administration (NTIA) announced its intent to transition oversight of IANA functions.  In that announcement, NTIA asked the Internet Corporation for Assigned Names and Numbers (ICANN) to establish a process to deliver a proposal for transition.  As part of that process, the IANA Stewardship Transition Coordination Group (ICG) was formed.  They solicited proposals regarding the respective functions that IANA performs, in order that they may put forth a proposal to the NTIA.  </p>
+<p id="rfc.section.1.p.2">While there are interactions between all of the IANA functions and IETF standards, this document specifically addresses the protocol registries function.  Section 1 (this section) contains an introduction that is sourced solely within the IETF.  Section 2 contains the questionnaire that was written by the ICG and a formal response by the IETF.  Because much of this memo is taken from a questionnaire we mark answers to questions being asked as "IETF Response:".  There are Small changes to the content of the questions asked in order to match the RFC format.  </p>
+<h1 id="rfc.section.2"><a href="#rfc.section.2">2.</a> The Formal RFP Response</h1>
+<p id="rfc.section.2.p.1">Introduction</p>
+<p id="rfc.section.2.p.2">NOTE: This section is taken in its entirety from the questionnaire, version 10 (27 August 2014).  </p>
+<p id="rfc.section.2.p.3">Under the IANA <a href="https://www.icann.org/en/system/files/files/charter-icg-27aug14-en.pdf">Stewardship Transition Coordination Group (ICG) Charter</a>, the ICG has four main tasks: </p>
+<pre>
+
+    (i) Act as liaison to all interested parties in the IANA
+        stewardship transition, including the three "operational
+        communities" (i.e., those with direct operational or service
+        relationships with the IANA functions operator; namely names,
+        numbers, protocol parameters). This task consists of:
+
+          a. Soliciting proposals from the operational communities
+          b. Soliciting the input of the broad group of communities
+             affected by the IANA functions
+   (ii) Assess the outputs of the three operational communities
+        for compatibility and interoperability
+  (iii) Assemble a complete proposal for the transition
+   (iv) Information sharing and public communication
+
+</pre>
+<p class="figure"></p>
+<p/>
+<p id="rfc.section.2.p.5">This Request for Proposals (RFP) addresses task (i) of the ICG Charter. This RFP does not preclude any form of input from the non-operational communities.  </p>
+<p/>
+<p id="rfc.section.2.p.7">0. Complete Formal Responses</p>
+<p id="rfc.section.2.p.8">The IANA Stewardship Transition Coordination Group (ICG) seeks complete formal responses to this RFP from the &#8220;operational communities&#8221; of IANA (i.e., those with direct operational or service relationships with the IANA functions operator, in connection with names, numbers, or protocol parameters).  </p>
+<p id="rfc.section.2.p.9">Proposals are expected to enjoy a broad consensus of support from all interested parties.  During the development of their proposals, the operational communities are requested to consult and work with other affected parties. Likewise, in order to help the ICG maintain its light coordination role, all other affected parties are strongly encouraged to participate in community processes.  </p>
+<p id="rfc.section.2.p.10">The following link provides information about ongoing community processes and how to participate in them, and that will continue to be updated over time:  [XXX LINK] </p>
+<p id="rfc.section.2.p.11">Communities are asked to adhere to open and inclusive processes in developing their responses, so that all community members may fully participate in and observe those processes.   Communities are also asked to actively seek out and encourage wider participation by any other parties with interest in their response.  </p>
+<p id="rfc.section.2.p.12">A major challenge of the ICG will be to identify and help to reconcile differences between submitted proposals, in order to produce a single plan for the transition of IANA stewardship.  Submitted Proposals should therefore focus on those elements that are considered to be truly essential to the transition of their specific IANA functions.  </p>
+<p id="rfc.section.2.p.13">The target deadline for all complete formal responses to this RFP is 31 December 2014.  </p>
+<p/>
+<p id="rfc.section.2.p.15">I. Comments</p>
+<p id="rfc.section.2.p.16">While the ICG is requesting complete formal proposals from the operational communities only, and that all interested parties get involved as early as possible in the relevant community processes, some parties may choose to provide comments directly to the ICG about specific aspects of particular proposals, about the community processes, or about the ICG&#8217;s own processes. Comments may be directly submitted to the ICG any time via email to icg-forum@icann.org. Comments will be publicly archived at &lt;http://forum.icann.org/lists/icg-forum/&gt;.  </p>
+<p id="rfc.section.2.p.17">Commenters should be aware that ICG will direct comments received to the relevant operational communities if appropriate. The ICG will review comments received as time and resources permit and in accordance with the overall timeline for the transition. That is, comments received about specific proposals may not be reviewed until those proposals have been submitted to the ICG. The ICG may establish defined public comment periods about specific topics in the future, after the complete formal responses to the RFP have been received.  </p>
+<p/>
+<p id="rfc.section.2.p.19">Required Proposal Elements</p>
+<p id="rfc.section.2.p.20">The ICG encourages each community to submit a single proposal that contains the elements described in this section.  </p>
+<p id="rfc.section.2.p.21">Communities are requested to describe the elements delineated in the sections below in as much detail possible, and according to the suggested format/structure, to allow the ICG to more easily assimilate the results.  While each question is narrowly defined to allow for comparison between answers, respondents are encouraged to provide further information in explanatory sections, including descriptive summaries of policies/practices and associated references to source documents of specific policies/practices.  In this way, the responses to the questionnaire will be useful at the operational level as well as to the broader stakeholder communities.  </p>
+<p id="rfc.section.2.p.22">In the interest of completeness and consistency, proposals should cross-reference wherever appropriate the current <a href="http://www.ntia.doc.gov/files/ntia/publications/sf_26_pg_1-2-final_award_and_sacs.pdf">IANA Functions Contract</a> when describing existing arrangements and proposing changes to existing arrangements.  </p>
+<p/>
+<p id="rfc.section.2.p.24">0. Proposal Type</p>
+<pre>
+
+   Identify which category of the IANA functions this submission
+   proposes to address: 
+
+   IETF Response:
+                  [XXX] Protocol Parameters
+
+</pre>
+<p class="figure"></p>
+<p/>
+<p id="rfc.section.2.p.26">This response states the existing practice of the IETF, and also represents the views of the IAB and the IETF.  </p>
+<p/>
+<p id="rfc.section.2.p.28">I. Description of Community&#8217;s Use of IANA Functions</p>
+<pre>
+
+   This section should list the specific, distinct IANA services or
+   activities your community relies on. For each IANA service or
+   activity on which your community relies, please provide the
+   following:
+
+    o A description of the customer(s) of the service or activity.
+    [N.B. the IETF response has swapped this question with the next.]
+
+</pre>
+<p class="figure"></p>
+<p/>
+<p id="rfc.section.2.p.30">IETF Response:</p>
+<p id="rfc.section.2.p.31">The customer of the IANA protocol parameters function is the Internet Engineering Task Force (IETF).  </p>
+<p id="rfc.section.2.p.32">The IETF is a global voluntary standards organization whose goal is to make the Internet work better <a href="#RFC3935">[RFC3935]</a>.  IETF standards are published in the RFC series.  The IETF is responsible for the key standards that are used on the Internet today, including IP, TCP, DNS, BGP, and HTTP, to name but a few.  </p>
+<p id="rfc.section.2.p.33">The IETF operates an open and transparent manner <a href="#RFC6852">[RFC6852]</a>.  The processes that govern the IETF are also published in the RFC series.  The Internet Standards Process is documented in <a href="#RFC2026">[RFC2026]</a>.  That document explains not only how standards are developed, but also how disputes about decisions are resolved.  RFC 2026 has been amended a number of times, and those amendments are indicated in <a href="#RFC-INDEX">[RFC-INDEX]</a>.  The standards process can be amended in the same manner that standards are approved.  That is, someone proposes a change by submitting a temporary document known as an Internet-Draft, the community discusses it, and if rough consensus can be found the change is approved by the Internet Engineering Steering Community (IESG).  Anyone may propose such a change, and anyone may participate in the community discussion.  </p>
+<pre>
+
+    o A description of the service or activity.
+
+</pre>
+<p class="figure"></p>
+<p/>
+<p id="rfc.section.2.p.35">IETF Response: </p>
+<p id="rfc.section.2.p.36">Many IETF protocols make use of commonly defined protocol parameters. These parameters are used by implementers, who are the IETF's primary users of the IETF standards and other documents.  To ensure consistent interpretation of these parameter values by independent implementations, a globally available registry contains the parameter values and a pointer to documentation of the associated semantic intent.  The IETF uses the IANA protocol parameter registries for this purpose.  </p>
+<pre>
+
+    o What registries are involved in providing the service or
+      activity.
+
+</pre>
+<p class="figure"></p>
+<p/>
+<p id="rfc.section.2.p.38">IETF Response: </p>
+<p id="rfc.section.2.p.39">Administration of the protocol registries are themselves the service that is provided to the IETF community by ICANN.  </p>
+<pre>
+
+    o A description of any overlaps or interdependencies between your
+      IANA requirements and the functions required by other customer
+      communities
+
+</pre>
+<p class="figure"></p>
+<p/>
+<p id="rfc.section.2.p.41">IETF Response: </p>
+<p id="rfc.section.2.p.42">It is important to note that the IETF includes anyone who wishes to participate, including anyone from ICANN or the RIRs, and many people from those organizations regularly do.  </p>
+<p/>
+<p/>
+
+<ul>
+  <li>The IETF has specified a number of special use registries.  These registries require coordination with the GNSO.  We already perform this coordination.  </li>
+  <li>The IETF may, from time to time, define and allocate new ranges of IP addresses.  If one or more registries are required, the IETF will coordinate with appropriate organizations, such as the RIRs or ICANN.  </li>
+  <li>The IETF specifies the DNS protocol.  From time to time there are changes.  We continue to coordinate with ICANN regarding those changes.  </li>
+  <li>The IETF specifies minimum requirements for root servers.  Should those requirements change, we will inform ICANN.  </li>
+  <li>The routing architecture has evolved over time, and is expected to continue to do so.  Such evolution may have an impact on appropriate IP address allocation strategies.  As and when that happens, we will consult with the RIR community, as we have done in the past.  </li>
+  <li>IETF standards changes may have impact on operations of RIRs and service providers.  A recent example is the expansion of the BGP community field from 16 to 32 bits.<a href="#RFC6793">[RFC6793]</a>  It is important to note that this change occurred out of operational necessity, and it demonstrated strong alignment between the RIRs and the IETF.  </li>
+</ul>
+
+<p> </p>
+<pre>
+    
+	[[RH2]I think there are two areas of overlap:
+ 
+      Addresses: special-purpose addresses, such as anycast.  We need
+      to set up procedures to coordinate assignments.
+ 
+      Names: special-purpose names, such as .local.  We need to set
+      up procedures to coordinate such assignments.  ]]
+</pre>
+<p class="figure"></p>
+<p/>
+<p/>
+<p id="rfc.section.2.p.47">III. Existing, Pre-Transition Arrangements</p>
+<p/>
+<p id="rfc.section.2.p.49">This section should describe how existing IANA-related arrangements work, prior to the transition.</p>
+<p id="rfc.section.2.p.50">A. Policy Sources</p>
+<p id="rfc.section.2.p.51">This section should identify the specific source(s) of policy which must be followed by the IANA functions operator in its conduct of the services or activities described above.  If there are distinct sources of policy or policy development for different IANA activities, then please describe these separately. For each source of policy or policy development, please provide the following: </p>
+<p/>
+
+<ul>
+  <li>Which IANA service or activity (identified in Section I) is affected.</li>
+</ul>
+
+<p> </p>
+<p/>
+<p id="rfc.section.2.p.54">IETF Respponse: The protocol parameters registry.</p>
+<p/>
+<p/>
+
+<ul>
+  <li>A description of how policy is developed and established and who is involved in policy development and establishment.</li>
+</ul>
+
+<p> </p>
+<p/>
+<p id="rfc.section.2.p.58">IETF Response: </p>
+<p id="rfc.section.2.p.59">Policy for overall management of the registries is stated in RFCs in <a href="#RFC6220">[RFC6220]</a> and <a href="#RFC5226">[RFC5226]</a>.  The first of these documents explains the model for how the registries are to be operated, how policy is set, and how oversight takes place.  RFC 5226 specifies the policies that specification writers may employ when they define new protocol registries in the "IANA Considerations" section of each specification.  All policies at the IETF begin with a proposal in the form of an Internet-Draft.  Anyone may submit such a proposal.  If there is sufficient interest, the Internet Engineering Steering Group may choose to create a working group or an Area Director may choose to sponsor the draft.  In either case, anyone may comment on the proposal as it progresses.  A proposal cannot be passed by the IESG unless it enjoys sufficient community support as to indicate rough consensus <a href="#RFC7282">[RFC7282]</a>  Last calls are made so that there is notice of any proposed change to a policy or 	process.  </p>
+<p/>
+<p/>
+
+<ul>
+  <li>A description of how disputes about policy are resolved.</li>
+</ul>
+
+<p> </p>
+<p/>
+<p id="rfc.section.2.p.63">IETF Response: </p>
+<p id="rfc.section.2.p.64">Most disputes are handled at the lowest level through the working group and rough consensus processes.  Should anyone disagree with any action, Section 6.5 of <a href="#RFC2026">[RFC2026]</a> specifies a multi-level conflict resolution and appeals process that includes the responsible Area Director, the IESG, and the IAB.  Should appeals be upheld, an appropriate remedy is applied.  In the case where an someone claims that the procedures themselves are insufficient or inadequate in some way to address a circumstance, one may appeal an IAB decision to the Internet Society Board of Trustees.  </p>
+<p/>
+<p/>
+
+<ul>
+  <li>References to documentation of policy development and dispute resolution processes.</li>
+</ul>
+
+<p> </p>
+<p id="rfc.section.2.p.67">IETF Response: As mentioned above, <a href="#RFC2026">[RFC2026]</a> Section 6.5 specifies a conflict resolution and appeals process.  </p>
+<p/>
+<p id="rfc.section.2.p.69">B. Oversight and Accountability</p>
+<p/>
+<p id="rfc.section.2.p.71">This section should describe all the ways in which oversight is conducted over IANA functions operator&#8217;s provision of the services and activities listed in Section I and all the ways in which IANA functions operator is currently held accountab le for the provision of those services. For each oversight or accountability mechanism, please provide as many of the following as are applicable: </p>
+<p/>
+
+<ul>
+  <li>Which IANA service or activity (identified in Section I) is affected.</li>
+</ul>
+
+<p> </p>
+<p id="rfc.section.2.p.73">IETF Response: the protocol parameters registries.</p>
+<p/>
+
+<ul>
+  <li>If not all policy sources identified in Section II.A are affected, identify which ones are affected.</li>
+</ul>
+
+<p> </p>
+<p id="rfc.section.2.p.75">IETF Response: all policy sources relating to the protocol parameters registry have been specified in II.A.  </p>
+<p/>
+
+<ul>
+  <li>A description of the entity or entities that provide oversight or perform accountability functions, including how individuals are selected or removed from participation in those entities.</li>
+</ul>
+
+<p> </p>
+<p id="rfc.section.2.p.77">IETF Response: </p>
+<p id="rfc.section.2.p.78">The Internet Architecture Board (IAB) is an oversight body of the IETF whose responsibilities include, among other things, confirming appointment of IESG members, managing appeals as discussed above, management of certain domains, including .ARPA <a href="#RFC3172">[RFC3172]</a>, and general architectural guidance to the broader community.  The IAB is also responsible for establishing liaison relationships with other orgnaizations on behalf of the IETF.  The IAB's charter is to be found in <a href="#RFC2860">[RFC2860]</a>.  </p>
+<p id="rfc.section.2.p.79">The IAB members are selected and may be recalled through a Nominating Committee (NOMCOM) process, which is described in <a href="#RFC3777">[RFC3777]</a>.  This process provides for selection of active members of the community who themselves agree upon a slate of candidates.  Those candidates are sent to the ISOC Board of Trustees for confirmation.  In general, members serve for two years.  The IAB selects its own chair.  </p>
+<p id="rfc.section.2.p.80">The IAB provides oversight of the protocol parameter registries of the IETF, and is responsible for selecting appropriate operator(s) and related per-registry arrangements.  Especially when relationships among protocols call for it, many registries are operated by, or in conjunction with, other bodies.  Unless the IAB or IETF has concluded that special treatment is needed, the operator for registries is currently ICANN.  </p>
+<p/>
+
+<ul>
+  <li>A description of the mechanism (e.g., contract, reporting scheme, auditing scheme, etc.). This should include a description of the consequences of the IANA functions operator not meeting the standards established by the mechanism, the extent to which the output of the mechanism is transparent and the terms under which the mechanism may change.</li>
+</ul>
+
+<p> </p>
+<p id="rfc.section.2.p.82">IETF Response: </p>
+<p id="rfc.section.2.p.83">A memorandum of understanding (MoU) between ICANN and the IETF community has been in place since 2000.  It can be found in <a href="#RFC2860">[RFC2860]</a>. It has been amended several times.  The MoU defines the work to be carried out by the IANA staff for the IETF and IRTF.  </p>
+<p id="rfc.section.2.p.84">Day-to-day administration and contract management is the responsibility of the IETF Administrative Director (IAD).  The IETF Administrative Oversight Committee (IAOC) oversees the IAD.  IAOC members are appointed by the Internet Society Board of Trustees, the IAB, the IESG, and the NOMCOM <a href="#RFC4071">[RFC4071]</a>.  The IAOC works with ICANN to establish annual IANA performance metrics and operational procedures, and the resulting document is adopted as an addendum to the MoU each year <a href="http://iaoc.ietf.org/contracts.html">http://iaoc.ietf.org/contracts.html</a>.  </p>
+<p id="rfc.section.2.p.85">To date there have been no unresolvable disputes or issues.  In the unlikely event that a more difficult situation should arise, the IAOC and the IAB would engage ICANN management to address the matter.  The MoU also provides an option for either party to terminate the arrangement with six months notice. Obviously such action would only be undertaken after serious consideration.  </p>
+<p/>
+
+<ul>
+  <li>Jurisdiction(s) in which the mechanism applies and the legal basis on which the mechanism rests.</li>
+</ul>
+
+<p> </p>
+<p id="rfc.section.2.p.87">IETF Response</p>
+<p id="rfc.section.2.p.88">Because of the nature of the agreement, questions of jurisdiction are immaterial.  </p>
+<p/>
+<p id="rfc.section.2.p.90">IV. Proposed changes to IANA Activities/Services</p>
+<p/>
+<p id="rfc.section.2.p.92">This section should describe what changes your community is proposing to the arrangements listed in Section II.B in light of the transition. If your community is proposing to replace one or more existing arrangements with new arrangements, that replacement should be explained and all of the elements listed in Section II.B should be described for the new arrangements. Your community should provide its rationale and justification for the new arrangements.  </p>
+<p id="rfc.section.2.p.93">If your community&#8217;s proposal carries any implications for existing policy arrangements described in Section II.A, those implications should be described here.  </p>
+<p id="rfc.section.2.p.94">If your community is not proposing changes to arrangements listed in Section II.B, the rationale and justification for that choice should be provided here.  </p>
+<p id="rfc.section.2.p.95">IETF Response: </p>
+<p id="rfc.section.2.p.96">No changes are required, as over the years since the creation of ICANN, the IETF, ICANN, and IAB have together created a system of agreements, policies, and oversight mechanisms that covers what is needed.  </p>
+<p id="rfc.section.2.p.97">First and foremost, IANA protocol parameter registry updates will continue to function day-to-day, as they have been doing for the last decade or more.  The IETF community is quite satisfied with the current arrangement with ICANN.  RFC 2860 remains in force and has served the IETF community very well.  RFC 6220 has laid out an appropriate service description and requirements.  </p>
+<p id="rfc.section.2.p.98">Discussions during IETF 89 in London led to the following guiding principles for IAB efforts that impact IANA protocol parameter registries. These principles must be taken together; their order is not significant.  </p>
+<p id="rfc.section.2.p.99">1. The IETF protocol parameter registry function has been and continues to be capably provided by the Internet technical community.  </p>
+<p id="rfc.section.2.p.100">The strength and stability of the function and its foundation within the Internet technical community are both important given how critical protocol parameters are to the proper functioning of IETF protocols.  </p>
+<p id="rfc.section.2.p.101">We think the structures that sustain the protocol parameter registry function needs to be strong enough that they can be offered independently by the Internet technical community, without the need for backing from external parties.  And we believe we largely are there already, although the system can be strengthened further, and continuous improvements are being made.  </p>
+<p/>
+<p id="rfc.section.2.p.103">2. The protocol parameter registry function requires openness, transparency, and accountability.  </p>
+<p id="rfc.section.2.p.104">Existing documentation of how the function is administered and overseen is good <a href="#RFC2860">[RFC2860]</a>, <a href="#RFC6220">[RFC6220]</a>.  Further articulation and clarity may be beneficial.  It is important that the whole Internet community can understand how the function works, and that the processes for registering parameters and holding those who oversee the protocol parameter function accountable for following those processes are understood by all interested parties.  We are committed to making improvements here if necessary.  </p>
+<p/>
+<p id="rfc.section.2.p.106">3. Any contemplated changes to the protocol parameter registry function should respect existing Internet community agreements.  </p>
+<p id="rfc.section.2.p.107">The protocol parameter registry is working well.  The existing Memorandum of Understanding in RFC 2860 defines "the technical work to be carried out by the Internet Assigned Numbers Authority on behalf of the Internet Engineering Task Force and the Internet Research Task Force."  Any modifications to the protocol parameter registry function should be made using the IETF process to update RFC 6220 and other relevant RFCs.  Put quite simply: evolution, not revolution.  </p>
+<p/>
+<p id="rfc.section.2.p.109">4. The Internet architecture requires and receives capable service by Internet registries.  </p>
+<p/>
+<p id="rfc.section.2.p.111">The stability of the Internet depends on capable provision of not just IETF protocol parameters, but IP numbers, domain names, and other registries.  Furthermore, DNS and IPv4/IPv6 are IETF-defined protocols.  Thus we expect the role of the IETF in standards development, architectural guidance, and allocation of certain name/number parameters to continue.  IP multicast addresses and special-use DNS names are two examples where close coordination is needed.  The IETF will continue to coordinate with ICANN, the RIRs, and other parties that are mutually invested in the continued smooth operation of the Internet registries. We fully understand the need to work together.  </p>
+<p/>
+<p id="rfc.section.2.p.113">5. The IETF will continue management of the protocol parameter registry function as an integral component of the IETF standards process and the use of resulting protocols.  </p>
+<p/>
+<p id="rfc.section.2.p.115">RFC 6220 specifies the role and function of the protocol parameters registry, which is critical to IETF standards processes and IETF protocols.  The IAB, on behalf of the IETF, has the responsibility to define and manage the relationship with the protocol registry operator role.  This responsibility includes the selection and management of the protocol parameter registry operator, as well as management of the parameter registration process and the guidelines for parameter allocation.  </p>
+<p/>
+<p id="rfc.section.2.p.117">6. The protocol parameters registries are provided as a public service.  </p>
+<p/>
+<p id="rfc.section.2.p.119">Directions for the creation of protocol parameter registries and the policies for subsequent additions and updates are specified in RFCs.  The protocol parameters registries are available to everyone, and they are published in a form that allows their contents to be included in other works without further permission.  These works include, but are not limited to, implementations of Internet protocols and their associated documentation.  </p>
+<p id="rfc.section.2.p.120">These principles will guide the IAB, IAOC, and the rest of the IETF community as they work with ICANN to establish future IANA performance metrics and operational procedures.  </p>
+<p/>
+<p id="rfc.section.2.p.122">Transition Implications</p>
+<p/>
+<p id="rfc.section.2.p.124">This section should describe what your community views as the implications of the changes it proposed in Section III. These implications may include some or all of the following, or other implications specific to your community: </p>
+<p/>
+
+<ul class="empty">
+  <li>Description of operational requirements to achieve continuity of service and possible new service integration throughout the transition.</li>
+  <li>Risks to operational continuity</li>
+  <li>Description of any legal framework requirements in the absence of the NTIA contract</li>
+  <li>Description of how you have tested or evaluated the workability of any new technical or operational methods proposed in this document and how they compare to established arrangements.</li>
+</ul>
+
+<p> </p>
+<p id="rfc.section.2.p.126">IETF Response:</p>
+<p id="rfc.section.2.p.127">No structural changes are required.  The principles listed above will guide IAB, IAOC, and the rest of the IETF community as they work with ICANN to establish future IANA performance metrics and operational procedures, as they have in the past.  </p>
+<p id="rfc.section.2.p.128">As no services are expected to change, no continuity issuees are anticipated, and there are no new technical or operational methods proposed by the IETF to test.  The IETF leadership, ICANN, and the RIRs maintain an ongoing informal dialog to spot any unforeseen issues that might arise as a result of other changes.</p>
+<p/>
+<p id="rfc.section.2.p.130">V.  NTIA Requirements </p>
+<p id="rfc.section.2.p.131">Additionally, NTIA has established that the transition proposal must meet the following five requirements: </p>
+<p id="rfc.section.2.p.132">"Support and enhance the multistakeholder model;" </p>
+<p id="rfc.section.2.p.133">IETF Response:</p>
+<p id="rfc.section.2.p.134">Everyone is welcome to participate in IETF activities.  The policies and procedures are outlined in the documents we named above.  In-person attendance is not required for participation, and many people participate in email discussions that have never attended an IETF meeting.  An email account is the only requirement to participate.  The IETF makes use of both formal and informal lines of communication to collaborate with other organizations within the multistakeholder ecosystem.  </p>
+<p/>
+<p id="rfc.section.2.p.136">"Maintain the security, stability, and resiliency of the Internet DNS;" </p>
+<p/>
+<p id="rfc.section.2.p.138">IETF Response:</p>
+<p id="rfc.section.2.p.139">The DNS relies on some of the IETF protocol parameters registries.  As the current IANA functions operator, ICANN performs its task very well, usually exceeding the service level agreement metrics.[Metrics] Security, stability, and resiliency of the Internet DNS is best protected by maintaining the current service in its current form.  </p>
+<p/>
+<p id="rfc.section.2.p.141">"Meet the needs and expectation of the global customers      and partners of the IANA services;" </p>
+<p/>
+<p id="rfc.section.2.p.143">IETF Response:</p>
+<p id="rfc.section.2.p.144">Implementers and their users from around the world make use of the IETF standards and the associated IANA protocol parameter registries.  The current IANA protocol parameter registry system is meeting the needs of these global customers.  This proposal continues to meet their needs by maintaining the existing processes that have served them well in the past.  </p>
+<p/>
+<p id="rfc.section.2.p.146">"Maintain the openness of the Internet." </p>
+<p/>
+<p id="rfc.section.2.p.148">IETF Response:</p>
+<p id="rfc.section.2.p.149">This proposal maintains the existing open framework that allows anyone to participate in the development of IETF standards, including the IANA protocol parameter registry policies.  Further, an implementer anywhere in the world has full access to the protocol specification published n the RFC series and the protocol parameter registries published at iana.org.  Those who require assignments in the IANA protocol registries will continue to be able to do so, as specified by the existing policies for those registries.  </p>
+<p id="rfc.section.2.p.150">{We will have an open discussion, make changes based on that discussion, and then conduct a Last Call to confirm that there is rough consensus for the proposal.} </p>
+<p/>
+<p id="rfc.section.2.p.152">VI.  Community Process</p>
+<p/>
+<p id="rfc.section.2.p.154">This section should describe the process your community used for developing this proposal, including: </p>
+<p/>
+
+<ul class="empty">
+  <li>The steps that were taken to develop the proposal and to determine consensus.</li>
+</ul>
+
+<p> </p>
+<p id="rfc.section.2.p.156">IETF Response: </p>
+<p id="rfc.section.2.p.157">The IESG established the IANAPLAN working group to develop this response.  Anyone was welcome to join the discussion and participate in the development of this response.  An open mailing list (ianaplan@ietf.org) was associated with the working group. In addition, IETF&#8217;s IANA practices have been discussed in the broader community, and all input is welcome.  </p>
+<p/>
+
+<ul>
+  <li>Links to announcements, agendas, mailing lists, consultations and meeting proceedings.</li>
+</ul>
+
+<p> </p>
+<p id="rfc.section.2.p.159">IETF Response: [xxx to be completed in more detail] </p>
+<p id="rfc.section.2.p.160">The following list is not exhaustive, as there have been many open discussions about this transition within the IETF community in the past few months.  </p>
+<p/>
+
+<dl>
+  <dt>Creation of an open mailing list to discuss the      transition</dt>
+  <dd style="margin-left: 8">http://www.ietf.org/mail-archive/web/ietf-announce/current/msg12978.html </dd>
+  <dt>Announcement of a public session on the transition</dt>
+  <dd style="margin-left: 8">http://www.ietf.org/mail-archive/web/ietf-announce/current/msg13028.html </dd>
+  <dt>Announcement by the IESG of the intent to form a      working group</dt>
+  <dd style="margin-left: 8">http://www.ietf.org/mail-archive/web/ietf-announce/current/msg13170.html </dd>
+</dl>
+
+<p> </p>
+<p/>
+
+<ul>
+  <li>An assessment of the level of consensus behind your community&#8217;s proposal, including a description of areas of contention or disagreement.</li>
+</ul>
+
+<p> </p>
+<p id="rfc.section.2.p.163">IETF Response: To be completed as the process progresses.  </p>
+<h1 id="rfc.section.3"><a href="#rfc.section.3">3.</a> Acknowledgments</h1>
+<p/>
+<p id="rfc.section.3.p.2">This document does not define new processes, and so it seems we acknowledge all of the preceding IAB members and members of the community who developed the processes that we describe.  The initial version of this document was developed collaboratively through both the IAB IANA Strategy Program and the IETF IANAPLAN WG.  Particular thanks go to Jari Arkko, John Klensin, Andrei Robachevsky, Andrew Sullivan, Leslie Daigle, and Barry Leiba.  </p>
+<h1 id="rfc.references"><a href="#rfc.references">4.</a> Informative References</h1>
+<table>
+  <tbody>
+    <tr>
+      <td class="reference">
+        <b id="RFC3935">[RFC3935]</b>
+      </td>
+      <td class="top"><a>Alvestrand, H.</a>, "<a href="http://tools.ietf.org/html/rfc3935">A Mission Statement for the IETF</a>", BCP 95, RFC 3935, October 2004.</td>
+    </tr>
+    <tr>
+      <td class="reference">
+        <b id="RFC6852">[RFC6852]</b>
+      </td>
+      <td class="top"><a>Housley, R.</a>, <a>Mills, S.</a>, <a>Jaffe, J.</a>, <a>Aboba, B.</a> and <a>L. St. Amour</a>, "<a href="http://tools.ietf.org/html/rfc6852">Affirmation of the Modern Paradigm for Standards</a>", RFC 6852, January 2013.</td>
+    </tr>
+    <tr>
+      <td class="reference">
+        <b id="RFC2026">[RFC2026]</b>
+      </td>
+      <td class="top"><a href="mailto:sob@harvard.edu" title="Harvard University">Bradner, S.</a>, "<a href="http://tools.ietf.org/html/rfc2026">The Internet Standards Process -- Revision 3</a>", BCP 9, RFC 2026, October 1996.</td>
+    </tr>
+    <tr>
+      <td class="reference">
+        <b id="RFC3777">[RFC3777]</b>
+      </td>
+      <td class="top"><a>Galvin, J.</a>, "<a href="http://tools.ietf.org/html/rfc3777">IAB and IESG Selection, Confirmation, and Recall Process: Operation of the Nominating and Recall Committees</a>", BCP 10, RFC 3777, June 2004.</td>
+    </tr>
+    <tr>
+      <td class="reference">
+        <b id="RFC2850">[RFC2850]</b>
+      </td>
+      <td class="top"><a>Internet Architecture Board</a> and <a>B. Carpenter</a>, "<a href="http://tools.ietf.org/html/rfc2850">Charter of the Internet Architecture Board (IAB)</a>", BCP 39, RFC 2850, May 2000.</td>
+    </tr>
+    <tr>
+      <td class="reference">
+        <b id="RFC6220">[RFC6220]</b>
+      </td>
+      <td class="top"><a>McPherson, D.</a>, <a>Kolkman, O.</a>, <a>Klensin, J.</a>, <a>Huston, G.</a>, <a>Internet Architecture Board</a>, "<a href="http://tools.ietf.org/html/rfc6220">Defining the Role and Function of IETF Protocol Parameter Registry Operators</a>", RFC 6220, April 2011.</td>
+    </tr>
+    <tr>
+      <td class="reference">
+        <b id="RFC5226">[RFC5226]</b>
+      </td>
+      <td class="top"><a>Narten, T.</a> and <a>H. Alvestrand</a>, "<a href="http://tools.ietf.org/html/rfc5226">Guidelines for Writing an IANA Considerations Section in RFCs</a>", BCP 26, RFC 5226, May 2008.</td>
+    </tr>
+    <tr>
+      <td class="reference">
+        <b id="RFC2860">[RFC2860]</b>
+      </td>
+      <td class="top"><a>Carpenter, B.</a>, <a>Baker, F.</a> and <a>M. Roberts</a>, "<a href="http://tools.ietf.org/html/rfc2860">Memorandum of Understanding Concerning the Technical Work of the Internet Assigned Numbers Authority</a>", RFC 2860, June 2000.</td>
+    </tr>
+    <tr>
+      <td class="reference">
+        <b id="RFC4071">[RFC4071]</b>
+      </td>
+      <td class="top"><a>Austein, R.</a> and <a>B. Wijnen</a>, "<a href="http://tools.ietf.org/html/rfc4071">Structure of the IETF Administrative Support Activity (IASA)</a>", BCP 101, RFC 4071, April 2005.</td>
+    </tr>
+    <tr>
+      <td class="reference">
+        <b id="RFC3172">[RFC3172]</b>
+      </td>
+      <td class="top"><a>Huston, G.</a>, "<a href="http://tools.ietf.org/html/rfc3172">Management Guidelines &amp; Operational Requirements for the Address and Routing Parameter Area Domain ("arpa")</a>", BCP 52, RFC 3172, September 2001.</td>
+    </tr>
+    <tr>
+      <td class="reference">
+        <b id="RFC7282">[RFC7282]</b>
+      </td>
+      <td class="top"><a>Resnick, P.</a>, "<a href="http://tools.ietf.org/html/rfc7282">On Consensus and Humming in the IETF</a>", RFC 7282, June 2014.</td>
+    </tr>
+    <tr>
+      <td class="reference">
+        <b id="RFC6793">[RFC6793]</b>
+      </td>
+      <td class="top"><a>Vohra, Q.</a> and <a>E. Chen</a>, "<a href="http://tools.ietf.org/html/rfc6793">BGP Support for Four-Octet Autonomous System (AS) Number Space</a>", RFC 6793, December 2012.</td>
+    </tr>
+    <tr>
+      <td class="reference">
+        <b id="RFC-INDEX">[RFC-INDEX]</b>
+      </td>
+      <td class="top"><a>RFC Editor, </a>, "<a href="http://tools.ietf.org/html/rfcIndex">Index of all Requests for Comments</a>", RFC Index, August 2014.</td>
+    </tr>
+  </tbody>
+</table>
+<h1 id="rfc.authors">
+  <a href="#rfc.authors">Authors' Addresses</a>
+</h1>
+<div class="avoidbreak">
+  <address class="vcard">
+	<span class="vcardline">
+	  <span class="fn">Eliot Lear</span> (editor)
+	  <span class="n hidden">
+		<span class="family-name">Lear</span>
+	  </span>
+	</span>
+	<span class="org vcardline"></span>
+	<span class="adr">
+	  <span>Richtistrasse 7</span>
+
+	  <span class="vcardline">
+		<span class="locality">Wallisellen</span>,  
+		<span class="region">ZH</span> 
+		<span class="code">CH-8304</span>
+	  </span>
+	  <span class="country-name vcardline">Switzerland</span>
+	</span>
+	<span class="vcardline">Phone: +41 44 878 9200</span>
+
+<span class="vcardline">EMail: <a href="mailto:lear@cisco.com">lear@cisco.com</a></span>
+
+  </address>
+</div><div class="avoidbreak">
+  <address class="vcard">
+	<span class="vcardline">
+	  <span class="fn">Russ Housley</span> (editor)
+	  <span class="n hidden">
+		<span class="family-name">Housley</span>
+	  </span>
+	</span>
+	<span class="org vcardline"></span>
+	<span class="adr">
+	  <span>918 Spring Noll Drive</span>
+
+	  <span class="vcardline">
+		<span class="locality">Herndon</span>,  
+		<span class="region">VA</span> 
+		<span class="code">20170</span>
+	  </span>
+	  <span class="country-name vcardline">USA</span>
+	</span>
+	<span class="vcardline">EMail: <a href="mailto:housley@vigilsec.com">housley@vigilsec.com</a></span>
+
+  </address>
+</div>
+
+</body>
+</html>
