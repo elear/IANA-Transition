@@ -66,7 +66,7 @@ Table of Contents
 
    1.  IETF Introduction . . . . . . . . . . . . . . . . . . . . . .   2
    2.  The Formal RFP Response . . . . . . . . . . . . . . . . . . .   2
-   3.  Acknowledgments . . . . . . . . . . . . . . . . . . . . . . .  16
+   3.  Acknowledgments . . . . . . . . . . . . . . . . . . . . . . .  15
    4.  Informative References  . . . . . . . . . . . . . . . . . . .  16
    Authors' Addresses  . . . . . . . . . . . . . . . . . . . . . . .  17
 
@@ -338,11 +338,6 @@ Lear & Housley           Expires March 14, 2015                 [Page 6]
 Internet-Draft             IANA ICG Response              September 2014
 
 
-   o  The IETF may, from time to time, define and allocate new ranges of
-      IP addresses.  If one or more registries are required, the IETF
-      will coordinate with appropriate organizations, such as the RIRs
-      or ICANN.
-
    o  The IETF specifies the DNS protocol.  From time to time there have
       been and will be updates to that protocol.  We will continue to
       coordinate with ICANN regarding those changes.
@@ -362,16 +357,6 @@ Internet-Draft             IANA ICG Response              September 2014
       note that this change occurred out of operational necessity, and
       it demonstrated strong alignment between the RIRs and the IETF.
 
-
-       [[RH2]I think there are two areas of overlap:
-
-         Addresses: special-purpose addresses, such as anycast.  We need
-         to set up procedures to coordinate assignments.
-
-         Names: special-purpose names, such as .local.  We need to set
-         up procedures to coordinate such assignments.  ]]
-
-
    III.  Existing, Pre-Transition Arrangements
 
    This section should describe how existing IANA-related arrangements
@@ -385,14 +370,6 @@ Internet-Draft             IANA ICG Response              September 2014
    sources of policy or policy development for different IANA
    activities, then please describe these separately.  For each source
    of policy or policy development, please provide the following:
-
-
-
-
-Lear & Housley           Expires March 14, 2015                 [Page 7]
-
-Internet-Draft             IANA ICG Response              September 2014
-
 
    o  Which IANA service or activity (identified in Section I) is
       affected.
@@ -409,6 +386,14 @@ Internet-Draft             IANA ICG Response              September 2014
    model for how the registries are to be operated, how policy is set,
    and how oversight takes place.  RFC 5226 specifies the policies that
    specification writers may employ when they define new protocol
+
+
+
+Lear & Housley           Expires March 14, 2015                 [Page 7]
+
+Internet-Draft             IANA ICG Response              September 2014
+
+
    registries in the "IANA Considerations" section of each
    specification.  All policies at the IETF begin with a proposal in the
    form of an Internet-Draft.  Anyone may submit such a proposal.  If
@@ -443,13 +428,6 @@ Internet-Draft             IANA ICG Response              September 2014
    group procedures.  Note that both of these documents have been
    amended in later RFCs as indicated in the RFC-INDEX.
 
-
-
-Lear & Housley           Expires March 14, 2015                 [Page 8]
-
-Internet-Draft             IANA ICG Response              September 2014
-
-
    B.  Oversight and Accountability
 
    This section should describe all the ways in which oversight is
@@ -463,6 +441,14 @@ Internet-Draft             IANA ICG Response              September 2014
       affected.
 
    IETF Response: the protocol parameters registries.
+
+
+
+
+Lear & Housley           Expires March 14, 2015                 [Page 8]
+
+Internet-Draft             IANA ICG Response              September 2014
+
 
    o  If not all policy sources identified in Section II.A are affected,
       identify which ones are affected.
@@ -498,14 +484,6 @@ Internet-Draft             IANA ICG Response              September 2014
    and related per-registry arrangements.  Especially when relationships
    among protocols call for it, many registries are operated by, or in
    conjunction with, other bodies.  Unless the IAB or IETF has concluded
-
-
-
-Lear & Housley           Expires March 14, 2015                 [Page 9]
-
-Internet-Draft             IANA ICG Response              September 2014
-
-
    that special treatment is needed, the operator for registries is
    currently ICANN.
 
@@ -520,6 +498,14 @@ Internet-Draft             IANA ICG Response              September 2014
 
    A memorandum of understanding (MoU) between ICANN and the IETF
    community has been in place since 2000.  It can be found in
+
+
+
+Lear & Housley           Expires March 14, 2015                 [Page 9]
+
+Internet-Draft             IANA ICG Response              September 2014
+
+
    [RFC2860].  It has been amended several times.  The MoU defines the
    work to be carried out by the IANA staff for the IETF and the
    Internet Research Task Force (IRTF), a peer organization to the IETF
@@ -554,14 +540,6 @@ Internet-Draft             IANA ICG Response              September 2014
    This section should describe what changes your community is proposing
    to the arrangements listed in Section II.B in light of the
    transition.  If your community is proposing to replace one or more
-
-
-
-Lear & Housley           Expires March 14, 2015                [Page 10]
-
-Internet-Draft             IANA ICG Response              September 2014
-
-
    existing arrangements with new arrangements, that replacement should
    be explained and all of the elements listed in Section II.B should be
    described for the new arrangements.  Your community should provide
@@ -576,6 +554,13 @@ Internet-Draft             IANA ICG Response              September 2014
    be provided here.
 
    IETF Response:
+
+
+
+Lear & Housley           Expires March 14, 2015                [Page 10]
+
+Internet-Draft             IANA ICG Response              September 2014
+
 
    No changes are required, as over the years since the creation of
    ICANN, the IETF, ICANN, and IAB have together created a system of
@@ -609,15 +594,6 @@ Internet-Draft             IANA ICG Response              September 2014
    there already, although the system can be strengthened further, and
    continuous improvements are being made.
 
-
-
-
-
-Lear & Housley           Expires March 14, 2015                [Page 11]
-
-Internet-Draft             IANA ICG Response              September 2014
-
-
    2.  The protocol parameter registry function requires openness,
    transparency, and accountability.
 
@@ -632,6 +608,15 @@ Internet-Draft             IANA ICG Response              September 2014
 
    3.  Any contemplated changes to the protocol parameter registry
    function should respect existing Internet community agreements.
+
+
+
+
+
+Lear & Housley           Expires March 14, 2015                [Page 11]
+
+Internet-Draft             IANA ICG Response              September 2014
+
 
    The protocol parameter registry is working well.  The existing
    Memorandum of Understanding in RFC 2860 defines "the technical work
@@ -666,14 +651,6 @@ Internet-Draft             IANA ICG Response              September 2014
    protocols.  The IAB, on behalf of the IETF, has the responsibility to
    define and manage the relationship with the protocol registry
    operator role.  This responsibility includes the selection and
-
-
-
-Lear & Housley           Expires March 14, 2015                [Page 12]
-
-Internet-Draft             IANA ICG Response              September 2014
-
-
    management of the protocol parameter registry operator, as well as
    management of the parameter registration process and the guidelines
    for parameter allocation.
@@ -688,6 +665,14 @@ Internet-Draft             IANA ICG Response              September 2014
    included in other works without further permission.  These works
    include, but are not limited to, implementations of Internet
    protocols and their associated documentation.
+
+
+
+
+Lear & Housley           Expires March 14, 2015                [Page 12]
+
+Internet-Draft             IANA ICG Response              September 2014
+
 
    These principles will guide the IAB, IAOC, and the rest of the IETF
    community as they work with ICANN to establish future IANA
@@ -722,14 +707,6 @@ Internet-Draft             IANA ICG Response              September 2014
 
    As no services are expected to change, no continuity issuees are
    anticipated, and there are no new technical or operational methods
-
-
-
-Lear & Housley           Expires March 14, 2015                [Page 13]
-
-Internet-Draft             IANA ICG Response              September 2014
-
-
    proposed by the IETF to test.  The IETF leadership, ICANN, and the
    RIRs maintain an ongoing informal dialog to spot any unforeseen
    issues that might arise as a result of other changes.
@@ -745,6 +722,14 @@ Internet-Draft             IANA ICG Response              September 2014
 
    Everyone is welcome to participate in IETF activities.  The policies
    and procedures are outlined in the documents we named above.  In-
+
+
+
+Lear & Housley           Expires March 14, 2015                [Page 13]
+
+Internet-Draft             IANA ICG Response              September 2014
+
+
    person attendance is not required for participation, and many people
    participate in email discussions that have never attended an IETF
    meeting.  An email account is the only requirement to participate.
@@ -779,13 +764,6 @@ Internet-Draft             IANA ICG Response              September 2014
 
    IETF Response:
 
-
-
-Lear & Housley           Expires March 14, 2015                [Page 14]
-
-Internet-Draft             IANA ICG Response              September 2014
-
-
    This proposal maintains the existing open framework that allows
    anyone to participate in the development of IETF standards, including
    the IANA protocol parameter registry policies.  Further, an
@@ -800,6 +778,13 @@ Internet-Draft             IANA ICG Response              September 2014
    rough consensus for the proposal.}
 
    VI.  Community Process
+
+
+
+Lear & Housley           Expires March 14, 2015                [Page 14]
+
+Internet-Draft             IANA ICG Response              September 2014
+
 
    This section should describe the process your community used for
    developing this proposal, including:
@@ -833,15 +818,6 @@ Internet-Draft             IANA ICG Response              September 2014
       www.ietf.org/mail-archive/web/ietf-announce/current/msg13028.html
 
    Announcement by the IESG of the intent to form a      working group
-
-
-
-
-Lear & Housley           Expires March 14, 2015                [Page 15]
-
-Internet-Draft             IANA ICG Response              September 2014
-
-
       http://www.ietf.org/mail-archive/web/ietf-announce/current/
       msg13170.html
 
@@ -858,8 +834,16 @@ Internet-Draft             IANA ICG Response              September 2014
    community who developed the processes that we describe.  The initial
    version of this document was developed collaboratively through both
    the IAB IANA Strategy Program and the IETF IANAPLAN WG.  Particular
+
+
+
+Lear & Housley           Expires March 14, 2015                [Page 15]
+
+Internet-Draft             IANA ICG Response              September 2014
+
+
    thanks go to Jari Arkko, John Klensin, Andrei Robachevsky, Andrew
-   Sullivan, Leslie Daigle, and Barry Leiba.
+   Sullivan, Leslie Daigle, Barry Leiba, Brian Carpenter, and Greg Wood.
 
 4.  Informative References
 
@@ -888,16 +872,6 @@ Internet-Draft             IANA ICG Response              September 2014
    [RFC3595]  Wijnen, B., "Textual Conventions for IPv6 Flow Label", RFC
               3595, September 2003.
 
-
-
-
-
-
-Lear & Housley           Expires March 14, 2015                [Page 16]
-
-Internet-Draft             IANA ICG Response              September 2014
-
-
    [RFC3777]  Galvin, J., "IAB and IESG Selection, Confirmation, and
               Recall Process: Operation of the Nominating and Recall
               Committees", BCP 10, RFC 3777, June 2004.
@@ -914,6 +888,15 @@ Internet-Draft             IANA ICG Response              September 2014
               Internet Architecture Board, "Defining the Role and
               Function of IETF Protocol Parameter Registry Operators",
               RFC 6220, April 2011.
+
+
+
+
+
+Lear & Housley           Expires March 14, 2015                [Page 16]
+
+Internet-Draft             IANA ICG Response              September 2014
+
 
    [RFC6761]  Cheshire, S. and M. Krochmal, "Special-Use Domain Names",
               RFC 6761, February 2013.
@@ -949,59 +932,20 @@ Authors' Addresses
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Lear & Housley           Expires March 14, 2015                [Page 17]
-
-Internet-Draft             IANA ICG Response              September 2014
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Lear & Housley           Expires March 14, 2015                [Page 18]

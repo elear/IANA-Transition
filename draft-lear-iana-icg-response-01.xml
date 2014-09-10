@@ -347,12 +347,6 @@ In the interest of completeness and consistency, proposals should
 	  coordination.<xref target="RFC6761" />
 	</t>
 	<t>
-	  The IETF may, from time to time, define and allocate new
-  	  ranges of IP addresses.  If one or more registries are
-	  required, the IETF will coordinate with appropriate
-	  organizations, such as the RIRs or ICANN.
-	</t>
-	<t>
 	  The IETF specifies the DNS protocol.  From time to time
 	  there have been and will be updates to that protocol.  We
 	  will continue to coordinate with ICANN regarding those
@@ -381,17 +375,6 @@ In the interest of completeness and consistency, proposals should
       </list>
       </t>
       <t>
-      <figure>
-  <artwork>
-    <![CDATA[
-	[[RH2]I think there are two areas of overlap:
- 
-      Addresses: special-purpose addresses, such as anycast.  We need
-      to set up procedures to coordinate assignments.
- 
-      Names: special-purpose names, such as .local.  We need to set
-      up procedures to coordinate such assignments.  ]]
-]]></artwork></figure>
       </t>
       <t></t>
     <t>III. Existing, Pre-Transition Arrangements</t>
@@ -935,7 +918,7 @@ developing this proposal, including:
 	collaboratively through both the IAB IANA Strategy Program and
 	the IETF IANAPLAN WG.  Particular thanks go to Jari Arkko,
 	John Klensin, Andrei Robachevsky, Andrew Sullivan, Leslie
-	Daigle, and Barry Leiba.
+	Daigle, Barry Leiba, Brian Carpenter, and Greg Wood.
       </t>
       </section>
   </middle>
