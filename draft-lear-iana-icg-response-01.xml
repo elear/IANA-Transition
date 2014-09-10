@@ -4,6 +4,7 @@
 <!ENTITY RFC3595 SYSTEM	 "http://xml.resource.org/public/rfc/bibxml/reference.RFC.3595.xml">
 <!ENTITY RFC6852 SYSTEM "http://xml.resource.org/public/rfc/bibxml/reference.RFC.6852.xml">
 <!ENTITY RFC2026 SYSTEM "http://xml.resource.org/public/rfc/bibxml/reference.RFC.2026.xml">
+<!ENTITY RFC2418 SYSTEM "http://xml.resource.org/public/rfc/bibxml/reference.RFC.2418.xml">
 <!ENTITY RFC3777 SYSTEM "http://xml.resource.org/public/rfc/bibxml/reference.RFC.3777.xml">
 <!ENTITY RFC2850 SYSTEM "http://xml.resource.org/public/rfc/bibxml/reference.RFC.2850.xml">
 <!ENTITY RFC6220 SYSTEM "http://xml.resource.org/public/rfc/bibxml/reference.RFC.6220.xml">
@@ -14,6 +15,7 @@
 <!ENTITY RFC3172 SYSTEM "http://xml.resource.org/public/rfc/bibxml/reference.RFC.3172.xml">
 <!ENTITY RFC6793 SYSTEM "http://xml.resource.org/public/rfc/bibxml/reference.RFC.6793.xml">
 <!ENTITY RFC7282 SYSTEM "http://xml.resource.org/public/rfc/bibxml/reference.RFC.7282.xml">
+<!ENTITY RFC6761 SYSTEM "http://xml.resource.org/public/rfc/bibxml/reference.RFC.6761.xml">
 ]>
 
 <?xml-stylesheet type='text/xsl' href='rfc2629.xslt' ?>
@@ -25,10 +27,10 @@
 <?rfc strict="yes" ?>
 <?rfc linkmailto="yes" ?>
 
-<rfc ipr="trust200902" docName="draft-lear-iana-icg-response-00" category="info">
+<rfc ipr="trust200902" docName="draft-lear-iana-icg-response-01" category="info">
 
   <front>
-    <title abbrev="IAB IANA ICG Response">
+    <title abbrev="IANA ICG Response">
       Draft Response to the Internet Coordination Group Request for
       Proposals on IANA
     </title>
@@ -77,15 +79,16 @@
   </front>
   <middle>
     <section title="IETF Introduction">
-      <t>In March of 2014 the U.S. National Telecommunications
-      &amp; Information Administration (NTIA) announced its intent to
-      transition oversight of IANA functions.  In that announcement,
-      NTIA asked the Internet Corporation for Assigned Names and
-      Numbers (ICANN) to establish a process to deliver a proposal for
-      transition.  As part of that process, the IANA Stewardship
-      Transition Coordination Group (ICG) was formed.  They solicited
-      proposals regarding the respective functions that IANA performs,
-      in order that they may put forth a proposal to the NTIA.
+      <t>In March of 2014 the U.S. National Telecommunications &amp;
+      Information Administration (NTIA) announced its intent to
+      transition oversight of Internet Assigned Numbers Authority
+      (IANA) functions.  In that announcement, NTIA asked the Internet
+      Corporation for Assigned Names and Numbers (ICANN) to establish
+      a process to deliver a proposal for transition.  As part of that
+      process, the IANA Stewardship Transition Coordination Group
+      (ICG) was formed.  They solicited proposals regarding the
+      respective functions that IANA performs, in order that they may
+      put forth a proposal to the NTIA.
       </t>
       <t>While there are interactions between all of the IANA
       functions and IETF standards, this document specifically
@@ -230,7 +233,8 @@ In the interest of completeness and consistency, proposals should
       </t>
       <t>
 	This response states the existing practice of the IETF, and
-	also represents the views of the IAB and the IETF.
+	also represents the views of the Internet Architecture Board
+	and the IETF.
       </t>
       <t></t>
     <t>I. Description of Community’s Use of IANA Functions</t>
@@ -252,12 +256,13 @@ In the interest of completeness and consistency, proposals should
       <t>Many IETF protocols make use of commonly defined protocol
 	parameters. These parameters are used by implementers, who are
 	the IETF's primary users of the IETF standards and other
-	documents.   To ensure consistent interpretation of these
-	parameter values by independent implementations, these IETF
-	protocol specifications define and require globally available
-	registry containing the parameter values and a pointer to
-	documentation of the associated semantic intent. The IETF uses
-	the IANA protocol parameter registries to implement such registries.
+	documents.  To ensure consistent interpretation of these
+	parameter values by independent implementations, and to
+	promote universal interoperability, these IETF protocol
+	specifications define and require globally available registry
+	containing the parameter values and a pointer to documentation
+	of the associated semantic intent. The IETF uses the IANA
+	protocol parameter registries to implement such registries.
       </t>  
 <t>
 <figure><artwork><![CDATA[
@@ -287,15 +292,16 @@ In the interest of completeness and consistency, proposals should
 	Process is documented in <xref target="RFC2026" />.  That
 	document explains not only how standards are developed, but
 	also how disputes about decisions are resolved.  RFC 2026 has
-	been amended a number of times, and those amendments are
-	indicated in <xref target="RFC-INDEX" />.  The
-	standards process can be amended in the same manner that
-	standards are approved.  That is, someone proposes a change by
-	submitting a temporary document known as an Internet-Draft,
-	the community discusses it, and if rough consensus can be
-	found the change is approved by the Internet Engineering
-	Steering Community (IESG).  Anyone may propose such a change,
-	and anyone may participate in the community discussion.
+	been augmented by supplementary agreements a number of times,
+	and those amendments are indicated in <xref target="RFC-INDEX"
+	/>.  The standards process can be amended in the same manner
+	that standards are approved.  That is, someone proposes a
+	change by submitting a temporary document known as an
+	Internet-Draft, the community discusses it, and if rough
+	consensus can be found the change is approved by the Internet
+	Engineering Steering Community (IESG).  Anyone may propose
+	such a change, and anyone may participate in the community
+	discussion.
       </t>
 <t>
 <figure><artwork><![CDATA[
@@ -325,29 +331,32 @@ In the interest of completeness and consistency, proposals should
        IETF Response:
        </t>
      <t>
-       It is important to note that the IETF includes
-	anyone who wishes to participate, including anyone from ICANN
-	or the RIRs, and many people from those organizations
-	regularly do.
+       It is important to note that the IETF includes anyone who
+	wishes to participate, including anyone from ICANN or the
+	regional Internet registries (RIRs), and many people from
+	those organizations regularly do.
       </t>
       <t></t>
       <t>
       <list style="symbols">
 	<t>
-	  The IETF has specified a number of special use registries.
-	  These registries require coordination with the GNSO.  We
-	  already perform this coordination.
+	  The IETF has specified a number of special use registries
+	  with regard to domain names.  These registries require
+	  coordination with the Generic Names Support Organization
+	  (GNSO).  We already perform this
+	  coordination.<xref target="RFC6761" />
 	</t>
 	<t>
 	  The IETF may, from time to time, define and allocate new
-	  ranges of IP addresses.  If one or more registries are
+  	  ranges of IP addresses.  If one or more registries are
 	  required, the IETF will coordinate with appropriate
 	  organizations, such as the RIRs or ICANN.
 	</t>
 	<t>
-	  The IETF specifies the DNS protocol.  From time to time there
-	  are changes.  We continue to coordinate with ICANN regarding
-	  those changes.
+	  The IETF specifies the DNS protocol.  From time to time
+	  there have been and will be updates to that protocol.  We
+	  will continue to coordinate with ICANN regarding those
+	  changes.
 	</t>
 	<t>
 	  The IETF specifies minimum requirements for root servers.
@@ -404,7 +413,7 @@ development, please provide the following:
 </list>
 </t>
 <t></t>
-<t>IETF Respponse: The protocol parameters registry.</t>
+<t>IETF Response: The protocol parameters registry.</t>
 <t></t>
 <t>
 <list style="symbols">
@@ -433,8 +442,9 @@ development, please provide the following:
 	comment on the proposal as it progresses.  A proposal cannot
 	be passed by the IESG unless it enjoys sufficient community
 	support as to indicate rough consensus <xref target="RFC7282"
-	/>  Last calls are made so that there is notice of any
-	proposed change to a policy or 	process.
+	/>  In each case, a "Last Call" is made so that there is
+	notice of any proposed change to a policy or process.
+	Anyone may comment during a Last Call.
 </t>
 <t></t>
 <t>
@@ -466,7 +476,9 @@ development, please provide the following:
       <t>
 	IETF Response: As mentioned above, <xref target="RFC2026" />
 	Section 6.5 specifies a conflict resolution and appeals
-	process.
+	process.  <xref target="RFC2418" /> specifies working group
+	procedures.  Note that both of these documents have been
+	amended in later RFCs as indicated in the RFC-INDEX.
       </t>
 <t></t>
       <t>B. Oversight and Accountability</t>
@@ -504,15 +516,16 @@ provide as many of the following as are applicable:
 	</list>
 	</t>
 	<t>IETF Response:
-	</t><t>The Internet Architecture Board (IAB) is an
-	  oversight body of the IETF whose responsibilities include,
-	  among other things, confirming appointment of IESG members,
-	  managing appeals as discussed above, management of certain
-	  domains, including .ARPA <xref target="RFC3172" />, and
-	  general architectural guidance to the broader community.
-	  The IAB is also responsible for establishing liaison
-	  relationships with other orgnaizations on behalf of the
-	  IETF.  The IAB's charter is to be found in
+	</t><t>The Internet Architecture Board (IAB) is an oversight
+	  body of the IETF whose responsibilities include, among other
+	  things, confirming appointment of IESG members, managing
+	  appeals as discussed above, management of certain domains,
+	  including .ARPA <xref target="RFC3172" />, and general
+	  architectural guidance to the broader community.  The IAB
+	  must approve the appointment of an organization to act as
+	  IANA on behalf of the IETF.  The IAB is also responsible for
+	  establishing liaison relationships with other orgnaizations
+	  on behalf of the IETF.  The IAB's charter is to be found in
 	  <xref target="RFC2860" />.
 	  </t>
 	  <t>
@@ -521,8 +534,9 @@ provide as many of the following as are applicable:
         <xref target="RFC3777" />.  This process provides for
         selection of active members of the community who themselves
         agree upon a slate of candidates.  Those candidates are sent
-        to the ISOC Board of Trustees for confirmation.  In general,
-        members serve for two years.  The IAB selects its own chair.
+        to the Internet Society Board of Trustees for confirmation.
+        In general, members serve for two years.  The IAB selects its
+        own chair.
       </t>
 	<t>The IAB provides oversight of the protocol parameter
 	  registries of the IETF, and is responsible for selecting
@@ -547,11 +561,12 @@ provide as many of the following as are applicable:
 	IETF Response:
 	</t>
       <t>
-	A memorandum of understanding (MoU) between
-	ICANN and the IETF community has been in place since 2000.  It
-	can be found in <xref target="RFC2860" />. It has been amended
-	several times.  The MoU defines the work to be carried out by
-	the IANA staff for the IETF and IRTF.
+	A memorandum of understanding (MoU) between ICANN and the IETF
+	community has been in place since 2000.  It can be found in
+	<xref target="RFC2860" />. It has been amended several times.
+	The MoU defines the work to be carried out by the IANA staff
+	for the IETF and the Internet Research Task Force (IRTF), a
+	peer organization to the IETF that focuses on research.
       </t>
       <t>
 	Day-to-day administration and contract management is the
@@ -927,6 +942,7 @@ developing this proposal, including:
   <back>
     <references title="Informative References">
       &RFC3595;
+      &RFC2418;
       &RFC6852;
       &RFC2026;
       &RFC3777;
@@ -938,8 +954,8 @@ developing this proposal, including:
       &RFC3172;
       &RFC7282;
       &RFC6793;
+      &RFC6761;
 <reference anchor='RFC-INDEX'>
-
 <front>
 <title>Index of all Requests for Comments</title>
 <author initials='' surname='RFC Editor'  fullname='RFC Editor'>
