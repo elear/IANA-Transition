@@ -28,7 +28,7 @@
 <?rfc strict="yes" ?>
 <?rfc linkmailto="yes" ?>
 
-<rfc ipr="trust200902" docName="draft-lear-iana-icg-response-01" category="info">
+<rfc ipr="trust200902" docName="draft-lear-iana-icg-response-02" category="info">
 
   <front>
     <title abbrev="IANA ICG Response">
@@ -257,7 +257,7 @@ In the interest of completeness and consistency, proposals should
 <t>
 <figure><artwork><![CDATA[
 >>>
->>> I. Description of Community’s Use of IANA Functions</t>
+>>> I. Description of Community’s Use of IANA Functions
 >>>
 >>> This section should list the specific, distinct IANA services
 >>> or activities your community relies on. For each IANA service
@@ -290,8 +290,8 @@ In the interest of completeness and consistency, proposals should
 </t>
       <t>IETF Response:</t>
       <t>
-	The customer of the IANA protocol parameters function is the
-	Internet Engineering Task Force (IETF).
+ICANN maintains the protocol parameters registry for the IETF in
+accordance with all relevant IETF policies. 
       </t>
       <t>
 	The IETF is a global
@@ -400,7 +400,7 @@ In the interest of completeness and consistency, proposals should
       <t>
       </t>
       <t></t>
-    <t>&gt;&gt;&gt; III. Existing, Pre-Transition Arrangements</t>
+    <t>&gt;&gt;&gt; II. Existing, Pre-Transition Arrangements</t>
     <t></t>
 <t>
 <figure><artwork><![CDATA[
@@ -623,7 +623,8 @@ In the interest of completeness and consistency, proposals should
 	jurisdiction are immaterial.
       </t>
       <t></t>
-    <t>&gt;&gt;&gt;IV. Proposed changes to IANA Activities/Services</t>
+    <t>&gt;&gt;&gt;III. Proposed Post-Transition Oversight and
+    Accountability Arrangements</t>
     <t></t>
 <t><figure><artwork><![CDATA[
 >>> 
@@ -650,7 +651,7 @@ In the interest of completeness and consistency, proposals should
 	IETF Response:
       </t>
       <t>
-No changes are required, as over the years since the creation of
+Very few changes are required, as over the years since the creation of
 ICANN, the IETF, ICANN, and IAB have together created a system of
 agreements, policies, and oversight mechanisms that covers what is needed.
       </t>
@@ -663,6 +664,15 @@ agreements, policies, and oversight mechanisms that covers what is needed.
 	RFC 6220 has laid out an appropriate service description and
 	requirements.
       </t>
+      <t>To address issues raised by the IETF community relating to
+      IPR, all involved parties (the IETF, IAB, NTIA, and ICANN) must
+      make clear that the contents of the protocol registries belong
+      to the public and are in the public domain.</t>
+      <t>To avoid any confusion during any potential transition to a
+      new operator, the IAOC and ICANN shall seek to conclude a
+      supplemental agreement with ICANN that makes clear that there
+      shall not be confusion as to where the IETF's authoritative
+      version of the database is at any time.</t>
       <t>
 	Discussions during IETF 89 in London led to the following
 	guiding principles for IAB efforts that impact IANA protocol

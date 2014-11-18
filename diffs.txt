@@ -1,0 +1,13 @@
+549,551c549,552
+<    intellectual property rights; ISOC, the IETF, IETF Trust, IAB, NTIA,
+<    and ICANN should formally declare that the data in the protocol
+<    parameter registries is in the public domain.
+---
+>    intellectual property rights; the IAOC is asked to engage the
+>    appropriate parties, both inside and outside the IETF, to see that
+>    the data in the protocol parameter registries is in the public
+>    domain.
+573c574
+<        contract; and
+---
+>        contract between ICANN and NTIA[addref]; and

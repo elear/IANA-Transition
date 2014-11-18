@@ -1,0 +1,1383 @@
+*** draft-ietf-ianaplan-icg-response-01.txt	2014-10-16 17:44:42.000000000 +0200
+--- draft-ietf-ianaplan-icg-response-02.txt	2014-10-25 19:23:48.000000000 +0200
+***************
+*** 4,11 ****
+  
+  IANAPLAN                                                    E. Lear, Ed.
+  Internet-Draft                                           R. Housley, Ed.
+! Intended status: Informational                          October 16, 2014
+! Expires: April 19, 2015
+  
+  
+  Draft Response to the Internet Coordination Group Request for Proposals
+--- 4,11 ----
+  
+  IANAPLAN                                                    E. Lear, Ed.
+  Internet-Draft                                           R. Housley, Ed.
+! Intended status: Informational                          October 25, 2014
+! Expires: April 28, 2015
+  
+  
+  Draft Response to the Internet Coordination Group Request for Proposals
+***************
+*** 14,24 ****
+  
+  Abstract
+  
+!    This document contains the a draft response to a request for
+!    proposals from the IANA Stewardship Transition Coordination Group
+!    regarding the protocol parameters registries.  It is meant to be
+!    included in an aggregate proposal that also includes contributions
+!    covering names and addresses that will be submitted from their
+     respective operational communities.  The IETF community is invited to
+     comment and propose changes to this document.
+  
+--- 14,24 ----
+  
+  Abstract
+  
+!    This document contains the a response to a request for proposals from
+!    the IANA Stewardship Transition Coordination Group regarding the
+!    protocol parameters registries.  It is meant to be included in an
+!    aggregate proposal that also includes contributions covering domain
+!    names and numbering resources that will be submitted from their
+     respective operational communities.  The IETF community is invited to
+     comment and propose changes to this document.
+  
+***************
+*** 37,43 ****
+     time.  It is inappropriate to use Internet-Drafts as reference
+     material or to cite them other than as "work in progress."
+  
+!    This Internet-Draft will expire on April 19, 2015.
+  
+  Copyright Notice
+  
+--- 37,43 ----
+     time.  It is inappropriate to use Internet-Drafts as reference
+     material or to cite them other than as "work in progress."
+  
+!    This Internet-Draft will expire on April 28, 2015.
+  
+  Copyright Notice
+  
+***************
+*** 53,59 ****
+  
+  
+  
+! Lear & Housley           Expires April 19, 2015                 [Page 1]
+  
+  Internet-Draft             IANA ICG Response                October 2014
+  
+--- 53,59 ----
+  
+  
+  
+! Lear & Housley           Expires April 28, 2015                 [Page 1]
+  
+  Internet-Draft             IANA ICG Response                October 2014
+  
+***************
+*** 68,81 ****
+     2.  The Formal RFP Response . . . . . . . . . . . . . . . . . . .   3
+     3.  IANA Considerations . . . . . . . . . . . . . . . . . . . . .  16
+     4.  Security Considerations . . . . . . . . . . . . . . . . . . .  16
+!    5.  Acknowledgments . . . . . . . . . . . . . . . . . . . . . . .  16
+!    6.  Informative References  . . . . . . . . . . . . . . . . . . .  16
+!    Appendix A.  Changes since -00  . . . . . . . . . . . . . . . . .  18
+     Appendix B.  The Charter of the IANA Stewardship Coordination
+!                 Group (ICG . . . . . . . . . . . . . . . . . . . . .  18
+     Appendix C.  IANA Stewardship Transition Coordination Group
+!                 Request for Proposals  . . . . . . . . . . . . . . .  21
+!    Authors' Addresses  . . . . . . . . . . . . . . . . . . . . . . .  27
+  
+  1.  IETF Introduction
+  
+--- 68,83 ----
+     2.  The Formal RFP Response . . . . . . . . . . . . . . . . . . .   3
+     3.  IANA Considerations . . . . . . . . . . . . . . . . . . . . .  16
+     4.  Security Considerations . . . . . . . . . . . . . . . . . . .  16
+!    5.  Acknowledgments . . . . . . . . . . . . . . . . . . . . . . .  17
+!    6.  Informative References  . . . . . . . . . . . . . . . . . . .  17
+!    Appendix A.  Changes  . . . . . . . . . . . . . . . . . . . . . .  19
+!      A.1.  Changes from -01 to -02 . . . . . . . . . . . . . . . . .  19
+!      A.2.  Changes from -00 to -01 . . . . . . . . . . . . . . . . .  19
+     Appendix B.  The Charter of the IANA Stewardship Coordination
+!                 Group (ICG . . . . . . . . . . . . . . . . . . . . .  19
+     Appendix C.  IANA Stewardship Transition Coordination Group
+!                 Request for Proposals  . . . . . . . . . . . . . . .  22
+!    Authors' Addresses  . . . . . . . . . . . . . . . . . . . . . . .  28
+  
+  1.  IETF Introduction
+  
+***************
+*** 93,99 ****
+  
+     While there are interactions between all of the IANA functions and
+     IETF standards, this document specifically addresses the protocol
+!    registries function.  Section 1 (this section) contains an
+     introduction that is sourced solely within the IETF.  Section 2
+     contains the questionnaire that was written by the ICG and a formal
+     response by the IETF.  Because much of this memo is taken from a
+--- 95,101 ----
+  
+     While there are interactions between all of the IANA functions and
+     IETF standards, this document specifically addresses the protocol
+!    parameters registries function.  Section 1 (this section) contains an
+     introduction that is sourced solely within the IETF.  Section 2
+     contains the questionnaire that was written by the ICG and a formal
+     response by the IETF.  Because much of this memo is taken from a
+***************
+*** 107,115 ****
+  
+  
+  
+! 
+! 
+! Lear & Housley           Expires April 19, 2015                 [Page 2]
+  
+  Internet-Draft             IANA ICG Response                October 2014
+  
+--- 109,115 ----
+  
+  
+  
+! Lear & Housley           Expires April 28, 2015                 [Page 2]
+  
+  Internet-Draft             IANA ICG Response                October 2014
+  
+***************
+*** 165,178 ****
+  
+  
+  
+! Lear & Housley           Expires April 19, 2015                 [Page 3]
+  
+  Internet-Draft             IANA ICG Response                October 2014
+  
+  
+!    registry containing the parameter values and a pointer to
+     documentation of the associated semantic intent.  The IETF uses the
+!    IANA protocol parameter registries to implement such registries.
+  
+     >>>
+     >>> A description of the customer(s) of the service or activity.
+--- 165,179 ----
+  
+  
+  
+! Lear & Housley           Expires April 28, 2015                 [Page 3]
+  
+  Internet-Draft             IANA ICG Response                October 2014
+  
+  
+!    registries containing the parameter values and a pointer to
+     documentation of the associated semantic intent.  The IETF uses the
+!    IANA protocol parameters registries to store this information in a
+!    public location.
+  
+     >>>
+     >>> A description of the customer(s) of the service or activity.
+***************
+*** 181,191 ****
+  
+     IETF Response:
+  
+!    The IANA protocol parameter registry operator maintains the protocol
+!    parameters registry for the IETF in accordance with all relevant IETF
+!    policies, in accordance with the Memorandum of Understanding and
+!    assoicated supplemental agreements that include service level
+!    agreements (SLAs).
+  
+     The IETF is a global voluntary standards organization whose goal is
+     to make the Internet work better [RFC3595].  IETF standards are
+--- 182,193 ----
+  
+     IETF Response:
+  
+!    The IANA protocol parameters registries operator maintains the
+!    protocol parameters registries for the IETF in accordance with all
+!    relevant IETF policies, in accordance with the Memorandum of
+!    Understanding and associated supplemental agreements that include
+!    service level agreements (SLAs) established between the IETF and
+!    ICANN[RFC2860].
+  
+     The IETF is a global voluntary standards organization whose goal is
+     to make the Internet work better [RFC3595].  IETF standards are
+***************
+*** 193,199 ****
+     standards that are used on the Internet today, including IP, TCP,
+     DNS, BGP, and HTTP, to name but a few.
+  
+!    The IETF operates an open and transparent manner [RFC6852].  The
+     processes that govern the IETF are also published in the RFC series.
+     The Internet Standards Process is documented in [RFC2026].  That
+     document explains not only how standards are developed, but also how
+--- 195,201 ----
+     standards that are used on the Internet today, including IP, TCP,
+     DNS, BGP, and HTTP, to name but a few.
+  
+!    The IETF operates in an open and transparent manner [RFC6852].  The
+     processes that govern the IETF are also published in the RFC series.
+     The Internet Standards Process is documented in [RFC2026].  That
+     document explains not only how standards are developed, but also how
+***************
+*** 219,234 ****
+  
+  
+  
+! 
+! 
+! Lear & Housley           Expires April 19, 2015                 [Page 4]
+  
+  Internet-Draft             IANA ICG Response                October 2014
+  
+  
+!    The protocol parameter registries are the product of IETF work.
+!    Administration of the protocol parameter registries is the service
+!    that is provide to the IETF.
+  
+     >>>
+     >>> A description of any overlaps or interdependencies between your
+--- 221,234 ----
+  
+  
+  
+! Lear & Housley           Expires April 28, 2015                 [Page 4]
+  
+  Internet-Draft             IANA ICG Response                October 2014
+  
+  
+!    The protocol parameters registries are the product of IETF work.
+!    Administration of the protocol parameters registries is the service
+!    that is provided to the IETF.
+  
+     >>>
+     >>> A description of any overlaps or interdependencies between your
+***************
+*** 241,255 ****
+  
+     In this context, the IETF considers "overlap" to be where there is in
+     some way shared responsibility for a single registry across multiple
+!    organizations.  This is the case with both names and numbers, as
+!    described in the paragraphs below.  In all cases, the IETF engages
+!    directly with the appropriate organizations to ensure that each
+!    organization's policies are followed.
+  
+     It is important to note that the IETF includes anyone who wishes to
+!    participate, including anyone from ICANN or the regional Internet
+!    registries (RIRs), and many people from those organizations regularly
+!    do.
+  
+     o  The IETF has specified a number of special use registries with
+        regard to domain names.  These registries require coordination
+--- 241,258 ----
+  
+     In this context, the IETF considers "overlap" to be where there is in
+     some way shared responsibility for a single registry across multiple
+!    organizations.  In this sense, there is no overlap between
+!    organizations because responsibility for each registry is carefully
+!    delineated.  There are, however, points of interaction between other
+!    organizations, and a few cases where we may further define the scope
+!    of a registry for technical purposes.  This is the case with both
+!    names and numbers, as described in the paragraphs below.  In all
+!    cases, the IETF engages directly with the appropriate organizations
+!    to ensure that each organization's policies are followed.
+  
+     It is important to note that the IETF includes anyone who wishes to
+!    participate.  Staff and participants from ICANN or the Regional
+!    Internet Registries (RIRs) regularly participate in IETF activities.
+  
+     o  The IETF has specified a number of special use registries with
+        regard to domain names.  These registries require coordination
+***************
+*** 257,264 ****
+        perform this coordination.[RFC6761]
+  
+     o  The IETF specifies the DNS protocol.  From time to time there have
+!       been and will be updates to that protocol.  We will continue to
+!       coordinate with ICANN regarding those changes.
+  
+     o  The IETF specifies minimum requirements for root servers.  Should
+        those requirements change, we will inform ICANN.
+--- 260,268 ----
+        perform this coordination.[RFC6761]
+  
+     o  The IETF specifies the DNS protocol.  From time to time there have
+!       been and will be updates to that protocol.  As we make changes we
+!       will broadly consult the operational community about the impact of
+!       those changes, as we have done in the past.
+  
+     o  The IETF specifies minimum requirements for root servers.  Should
+        those requirements change, we will inform ICANN.
+***************
+*** 269,292 ****
+        happens, we will consult with the RIR community, as we have done
+        in the past.
+  
+-    o  The IETF has established registries with IANA for special IPv4 and
+-       IPv6 assignments.  These are specified in [RFC6890].  The IETF
+-       coordinates such assignments with the RIRs.
+- 
+  
+  
+  
+  
+! Lear & Housley           Expires April 19, 2015                 [Page 5]
+  
+  Internet-Draft             IANA ICG Response                October 2014
+  
+  
+     o  IETF standards changes may have impact on operations of RIRs and
+!       service providers.  A recent example is the expansion of the BGP
+!       community field from 16 to 32 bits.[RFC6793]  It is important to
+!       note that this change occurred out of operational necessity, and
+!       it demonstrated strong alignment between the RIRs and the IETF.
+  
+     >>> II.  Existing, Pre-Transition Arrangements
+  
+--- 273,311 ----
+        happens, we will consult with the RIR community, as we have done
+        in the past.
+  
+  
+  
+  
+  
+! Lear & Housley           Expires April 28, 2015                 [Page 5]
+  
+  Internet-Draft             IANA ICG Response                October 2014
+  
+  
++    o  The IETF is responsible for policy relating to the entire IP
++       address space and AS number space.  Through IANA, the IETF
++       delegates unicast IP address and AS number ranges to the RIR
++       system[RFC7020],[RFC7249].  Special address allocation, such a
++       multicast and anycast addresses, often require coordination.
++       Another example of IP addresses that are not administered by the
++       RIR system is Unique Local Addresses (ULAs) [RFC4193], where local
++       networks employ a prefix that is not intended to be routed on the
++       public Internet.  New special address allocations are added, from
++       time to time, related to the evolution of the standards.  In all
++       cases, these special assignments are listed in the IANA
++       registries.
++ 
++    o  The IETF maintains sub-registries for special IPv4 and IPv6
++       assignments.  These are specified in xref target="RFC3307"/>,
++       [RFC5771], and [RFC6890].  The IETF coordinates such assignments
++       with the RIRs.
++ 
+     o  IETF standards changes may have impact on operations of RIRs and
+!       service providers.  A recent example is the extensions to BGP to
+!       carry the Autonomous System numbers as four-octet
+!       entities[RFC6793].  It is important to note that this change
+!       occurred out of operational necessity, and it demonstrated strong
+!       alignment between the RIRs and the IETF.
+  
+     >>> II.  Existing, Pre-Transition Arrangements
+  
+***************
+*** 310,316 ****
+     >>>
+  
+  
+!    IETF Response: The protocol parameters registry.
+  
+     >>>
+     >>> A description of how policy is developed and established and
+--- 329,342 ----
+     >>>
+  
+  
+!    IETF Response: The protocol parameters registries.
+! 
+! 
+! 
+! Lear & Housley           Expires April 28, 2015                 [Page 6]
+! 
+! Internet-Draft             IANA ICG Response                October 2014
+! 
+  
+     >>>
+     >>> A description of how policy is developed and established and
+***************
+*** 320,326 ****
+  
+     IETF Response:
+  
+!    Policy for overall management of the registries is stated in RFCs in
+     [RFC6220] and [RFC5226].  The first of these documents explains the
+     model for how the registries are to be operated, how policy is set,
+     and how oversight takes place.  RFC 5226 specifies the policies that
+--- 346,352 ----
+  
+     IETF Response:
+  
+!    Policy for overall management of the registries is stated in
+     [RFC6220] and [RFC5226].  The first of these documents explains the
+     model for how the registries are to be operated, how policy is set,
+     and how oversight takes place.  RFC 5226 specifies the policies that
+***************
+*** 330,347 ****
+     form of an Internet-Draft.  Anyone may submit such a proposal.  If
+     there is sufficient interest, the Internet Engineering Steering Group
+     may choose to create a working group or an Area Director may choose
+- 
+- 
+- 
+- Lear & Housley           Expires April 19, 2015                 [Page 6]
+- 
+- Internet-Draft             IANA ICG Response                October 2014
+- 
+- 
+     to sponsor the draft.  In either case, anyone may comment on the
+     proposal as it progresses.  A proposal cannot be passed by the IESG
+     unless it enjoys sufficient community support as to indicate rough
+!    consensus [RFC7282]  In each case, a "Last Call" is made so that
+     there is notice of any proposed change to a policy or process.
+     Anyone may comment during a Last Call.
+  
+--- 356,365 ----
+     form of an Internet-Draft.  Anyone may submit such a proposal.  If
+     there is sufficient interest, the Internet Engineering Steering Group
+     may choose to create a working group or an Area Director may choose
+     to sponsor the draft.  In either case, anyone may comment on the
+     proposal as it progresses.  A proposal cannot be passed by the IESG
+     unless it enjoys sufficient community support as to indicate rough
+!    consensus [RFC7282].  In each case, a "Last Call" is made so that
+     there is notice of any proposed change to a policy or process.
+     Anyone may comment during a Last Call.
+  
+***************
+*** 357,365 ****
+     action, Section 6.5 of [RFC2026] specifies a multi-level conflict
+     resolution and appeals process that includes the responsible Area
+     Director, the IESG, and the IAB.  Should appeals be upheld, an
+!    appropriate remedy is applied.  In the case where an someone claims
+!    that the procedures themselves are insufficient or inadequate in some
+!    way to address a circumstance, one may appeal an IAB decision to the
+     Internet Society Board of Trustees.
+  
+     >>>
+--- 375,383 ----
+     action, Section 6.5 of [RFC2026] specifies a multi-level conflict
+     resolution and appeals process that includes the responsible Area
+     Director, the IESG, and the IAB.  Should appeals be upheld, an
+!    appropriate remedy is applied.  In the case where someone claims that
+!    the procedures themselves are insufficient or inadequate in some way
+!    to address a circumstance, one may appeal an IAB decision to the
+     Internet Society Board of Trustees.
+  
+     >>>
+***************
+*** 368,373 ****
+--- 386,399 ----
+     >>>
+  
+  
++ 
++ 
++ 
++ Lear & Housley           Expires April 28, 2015                 [Page 7]
++ 
++ Internet-Draft             IANA ICG Response                October 2014
++ 
++ 
+     IETF Response: As mentioned above, [RFC2026] Section 6.5 specifies a
+     conflict resolution and appeals process.  [RFC2418] specifies working
+     group procedures.  Note that both of these documents have been
+***************
+*** 386,399 ****
+     >>> following as are applicable:
+     >>>
+     >>> Which IANA service or activity (identified in Section I) is
+- 
+- 
+- 
+- Lear & Housley           Expires April 19, 2015                 [Page 7]
+- 
+- Internet-Draft             IANA ICG Response                October 2014
+- 
+- 
+     >>> affected.
+     >>>
+  
+--- 412,417 ----
+***************
+*** 407,413 ****
+  
+  
+     IETF Response: all policy sources relating to the protocol parameters
+!    registry have been specified in II.A.
+  
+     >>>
+     >>> A description of the entity or entities that provide oversight
+--- 425,431 ----
+  
+  
+     IETF Response: all policy sources relating to the protocol parameters
+!    registry are affected.
+  
+     >>>
+     >>> A description of the entity or entities that provide oversight
+***************
+*** 424,429 ****
+--- 442,455 ----
+     management of certain domains, including .ARPA [RFC3172], and general
+     architectural guidance to the broader community.  The IAB must
+     approve the appointment of an organization to act as IANA on behalf
++ 
++ 
++ 
++ Lear & Housley           Expires April 28, 2015                 [Page 8]
++ 
++ Internet-Draft             IANA ICG Response                October 2014
++ 
++ 
+     of the IETF.  The IAB is also responsible for establishing liaison
+     relationships with other orgnaizations on behalf of the IETF.  The
+     IAB's charter is to be found in [RFC2850].
+***************
+*** 435,441 ****
+     sent to the Internet Society Board of Trustees for confirmation.  In
+     general, members serve for two years.  The IAB selects its own chair.
+  
+!    The IAB provides oversight of the protocol parameter registries of
+     the IETF, and is responsible for selecting appropriate operator(s)
+     and related per-registry arrangements.  Especially when relationships
+     among protocols call for it, many registries are operated by, or in
+--- 461,467 ----
+     sent to the Internet Society Board of Trustees for confirmation.  In
+     general, members serve for two years.  The IAB selects its own chair.
+  
+!    The IAB provides oversight of the protocol parameters registries of
+     the IETF, and is responsible for selecting appropriate operator(s)
+     and related per-registry arrangements.  Especially when relationships
+     among protocols call for it, many registries are operated by, or in
+***************
+*** 443,455 ****
+     that special treatment is needed, the operator for registries is
+     currently ICANN.
+  
+- 
+- 
+- Lear & Housley           Expires April 19, 2015                 [Page 8]
+- 
+- Internet-Draft             IANA ICG Response                October 2014
+- 
+- 
+     >>>
+     >>> A description of the mechanism (e.g., contract, reporting
+     >>> scheme, auditing scheme, etc.). This should include a
+--- 469,474 ----
+***************
+*** 473,482 ****
+     responsibility of the IETF Administrative Director (IAD).  The IETF
+     Administrative Oversight Committee (IAOC) oversees the IAD.  IAOC
+     members are appointed by the Internet Society Board of Trustees, the
+!    IAB, the IESG, and the NOMCOM [RFC4071].  The IAOC works with ICANN
+!    to establish annual IANA performance metrics and operational
+!    procedures, and the resulting document is adopted as an supplement to
+!    the MoU each year [MOUSUP].
+  
+     To date there have been no unresolvable disputes or issues.  In the
+     unlikely event that a more difficult situation should arise, the IAOC
+--- 492,510 ----
+     responsibility of the IETF Administrative Director (IAD).  The IETF
+     Administrative Oversight Committee (IAOC) oversees the IAD.  IAOC
+     members are appointed by the Internet Society Board of Trustees, the
+!    IAB, the IESG, and the NOMCOM [RFC4071].  The IAOC works with the
+!    IANA functions operator to establish annual IANA performance metrics
+!    and operational procedures, and the resulting document is adopted as
+!    an supplement to the MoU each year [MOUSUP].
+! 
+! 
+! 
+! 
+! 
+! Lear & Housley           Expires April 28, 2015                 [Page 9]
+! 
+! Internet-Draft             IANA ICG Response                October 2014
+! 
+  
+     To date there have been no unresolvable disputes or issues.  In the
+     unlikely event that a more difficult situation should arise, the IAOC
+***************
+*** 499,511 ****
+     >>>III.  Proposed Post-Transition Oversight and Accountability
+     Arrangements
+  
+- 
+- 
+- Lear & Housley           Expires April 19, 2015                 [Page 9]
+- 
+- Internet-Draft             IANA ICG Response                October 2014
+- 
+- 
+     >>>
+     >>> This section should describe what changes your community is
+     >>> proposing to the arrangements listed in Section II.B in light of
+--- 527,532 ----
+***************
+*** 528,539 ****
+  
+     IETF Response:
+  
+-    No changes are required, as over the years since the creation of
+-    ICANN, the IETF, ICANN, and IAB have together created a system of
+-    agreements, policies, and oversight mechanisms that covers what is
+-    needed.
+  
+!    First and foremost, IANA protocol parameter registry updates will
+     continue to function day-to-day, as they have been doing for the last
+     decade or more.  The IETF community is quite satisfied with the
+     current arrangement with ICANN.  RFC 2860 remains in force and has
+--- 549,575 ----
+  
+     IETF Response:
+  
+  
+! 
+! 
+! 
+! 
+! 
+! 
+! 
+! Lear & Housley           Expires April 28, 2015                [Page 10]
+! 
+! Internet-Draft             IANA ICG Response                October 2014
+! 
+! 
+!    No major changes are required, however, the IETF community has raised
+!    several concerns that should be addressed by supplemental agreements
+!    to the IETF-ICANN MoU, prior to a transition to post-NTIA regime.
+!    Over the years since the creation of ICANN, the IETF, ICANN, and IAB
+!    have together created a system of agreements, policies, and oversight
+!    mechanisms that covers what is needed.
+! 
+!    First and foremost, IANA protocol parameters registry updates will
+     continue to function day-to-day, as they have been doing for the last
+     decade or more.  The IETF community is quite satisfied with the
+     current arrangement with ICANN.  RFC 2860 remains in force and has
+***************
+*** 541,598 ****
+     appropriate service description and requirements.
+  
+     To address issues raised by the IETF community relating to
+!    intellectual property rights; the IAOC is asked to engage the
+     appropriate parties, both inside and outside the IETF, to make clear
+     that data in the protocol parameters registries is in the public
+     domain.
+  
+!    To address a desire by some members of the IETF community to have
+!    mechanisms that allow for additional dispute resolution between the
+!    IETF and the current IANA protocol registries operator, the IAOC is
+!    asked to conclude a supplemental agreement regarding jurisdiction and
+!    any necessary dispute resolution mechanisms that are mutually
+!    acceptable to the parties.
+! 
+! 
+! 
+! 
+! 
+! Lear & Housley           Expires April 19, 2015                [Page 10]
+! 
+! Internet-Draft             IANA ICG Response                October 2014
+! 
+  
+     To address concerns regarding appropriate contingencies to transition
+     to another operator, IAOC is asked to conclude a supplemental
+     agreement that-
+  
+!    1.  captures provisions C.7.3 and I.61 of the current IANA functions
+!        contract between ICANN and the NTIA [NTIA-Contract]; and
+  
+     2.  requires the transfer of any associated marks and identifiers to
+!        a subsequent operator.
+  
+     Discussions during IETF 89 in London led to the following guiding
+     principles for IAB efforts that impact IANA protocol parameter
+     registries.  These principles must be taken together; their order is
+     not significant.
+  
+!    1.  The IETF protocol parameter registry function has been and
+     continues to be capably provided by the Internet technical community.
+  
+     The strength and stability of the function and its foundation within
+     the Internet technical community are both important given how
+     critical protocol parameters are to the proper functioning of IETF
+     protocols.
+  
+!    We think the structures that sustain the protocol parameter registry
+!    function needs to be strong enough that they can be offered
+!    independently by the Internet technical community, without the need
+!    for backing from external parties.  And we believe we largely are
+!    there already, although the system can be strengthened further, and
+!    continuous improvements are being made.
+  
+!    2.  The protocol parameter registry function requires openness,
+     transparency, and accountability.
+  
+     Existing documentation of how the function is administered and
+--- 577,634 ----
+     appropriate service description and requirements.
+  
+     To address issues raised by the IETF community relating to
+!    intellectual property rights, the IAOC is asked to engage the
+     appropriate parties, both inside and outside the IETF, to make clear
+     that data in the protocol parameters registries is in the public
+     domain.
+  
+!    To address a desire by the IETF community to have mechanisms that
+!    allow for additional dispute resolution between the IETF and the
+!    current IANA protocol registries operator, the IAOC is asked to
+!    conclude a supplemental agreement regarding jurisdiction and any
+!    necessary dispute resolution mechanisms that are mutually acceptable
+!    to the parties.
+  
+     To address concerns regarding appropriate contingencies to transition
+     to another operator, IAOC is asked to conclude a supplemental
+     agreement that-
+  
+!    1.  maintaining the IANA functions operator's obligations established
+!        under C.7.3 and I.61 of the current IANA functions contract
+!        between ICANN and the NTIA [NTIA-Contract]; and
+  
+     2.  requires the transfer of any associated marks and identifiers to
+!        subsequent operators.
+  
+     Discussions during IETF 89 in London led to the following guiding
+     principles for IAB efforts that impact IANA protocol parameter
+     registries.  These principles must be taken together; their order is
+     not significant.
+  
+!    1.  The IETF protocol parameters registries function has been and
+     continues to be capably provided by the Internet technical community.
+  
+     The strength and stability of the function and its foundation within
+     the Internet technical community are both important given how
++ 
++ 
++ 
++ Lear & Housley           Expires April 28, 2015                [Page 11]
++ 
++ Internet-Draft             IANA ICG Response                October 2014
++ 
++ 
+     critical protocol parameters are to the proper functioning of IETF
+     protocols.
+  
+!    We think the structures that sustain the protocol parameters
+!    registries function needs to be strong enough that they can be
+!    offered independently by the Internet technical community, without
+!    the need for backing from external parties.  And we believe we
+!    largely are there already, although the system can be strengthened
+!    further, and continuous improvements are being made.
+  
+!    2.  The protocol parameters registries function requires openness,
+     transparency, and accountability.
+  
+     Existing documentation of how the function is administered and
+***************
+*** 600,628 ****
+     clarity may be beneficial.  It is important that the whole Internet
+     community can understand how the function works, and that the
+     processes for registering parameters and holding those who oversee
+!    the protocol parameter function accountable for following those
+     processes are understood by all interested parties.  We are committed
+     to making improvements here if necessary.
+  
+!    3.  Any contemplated changes to the protocol parameter registry
+     function should respect existing Internet community agreements.
+  
+!    The protocol parameter registry is working well.  The existing
+!    Memorandum of Understanding in RFC 2860 defines "the technical work
+!    to be carried out by the Internet Assigned Numbers Authority on
+! 
+! 
+! 
+! Lear & Housley           Expires April 19, 2015                [Page 11]
+! 
+! Internet-Draft             IANA ICG Response                October 2014
+! 
+! 
+!    behalf of the Internet Engineering Task Force and the Internet
+!    Research Task Force."  Any modifications to the protocol parameter
+!    registry function should be made using the IETF process to update RFC
+!    6220 and other relevant RFCs.  Put quite simply: evolution, not
+!    revolution.
+  
+     4.  The Internet architecture requires and receives capable service
+     by Internet registries.
+--- 636,656 ----
+     clarity may be beneficial.  It is important that the whole Internet
+     community can understand how the function works, and that the
+     processes for registering parameters and holding those who oversee
+!    the protocol parameters function accountable for following those
+     processes are understood by all interested parties.  We are committed
+     to making improvements here if necessary.
+  
+!    3.  Any contemplated changes to the protocol parameters registries
+     function should respect existing Internet community agreements.
+  
+!    The protocol parameters registries function is working well.  The
+!    existing Memorandum of Understanding in RFC 2860 defines "the
+!    technical work to be carried out by the Internet Assigned Numbers
+!    Authority on behalf of the Internet Engineering Task Force and the
+!    Internet Research Task Force."  Any modifications to the protocol
+!    parameters registries function should be made using the IETF process
+!    to update RFC 6220 and other relevant RFCs.  Put quite simply:
+!    evolution, not revolution.
+  
+     4.  The Internet architecture requires and receives capable service
+     by Internet registries.
+***************
+*** 639,644 ****
+--- 667,679 ----
+     of the Internet registries.  We fully understand the need to work
+     together.
+  
++ 
++ 
++ Lear & Housley           Expires April 28, 2015                [Page 12]
++ 
++ Internet-Draft             IANA ICG Response                October 2014
++ 
++ 
+     5.  The IETF will continue management of the protocol parameter
+     registry function as an integral component of the IETF standards
+     process and the use of resulting protocols.
+***************
+*** 655,661 ****
+     6.  The protocol parameters registries are provided as a public
+     service.
+  
+!    Directions for the creation of protocol parameter registries and the
+     policies for subsequent additions and updates are specified in RFCs.
+     The protocol parameters registries are available to everyone, and
+     they are published in a form that allows their contents to be
+--- 690,696 ----
+     6.  The protocol parameters registries are provided as a public
+     service.
+  
+!    Directions for the creation of protocol parameters registries and the
+     policies for subsequent additions and updates are specified in RFCs.
+     The protocol parameters registries are available to everyone, and
+     they are published in a form that allows their contents to be
+***************
+*** 667,679 ****
+     community as they work with ICANN to establish future IANA
+     performance metrics and operational procedures.
+  
+- 
+- 
+- Lear & Housley           Expires April 19, 2015                [Page 12]
+- 
+- Internet-Draft             IANA ICG Response                October 2014
+- 
+- 
+     >>> IV Transition Implications
+  
+     >>>
+--- 702,707 ----
+***************
+*** 695,700 ****
+--- 723,735 ----
+     >>>
+  
+  
++ 
++ 
++ Lear & Housley           Expires April 28, 2015                [Page 13]
++ 
++ Internet-Draft             IANA ICG Response                October 2014
++ 
++ 
+     IETF Response:
+  
+     No structural changes are required.  The principles listed above will
+***************
+*** 702,708 ****
+     ICANN to establish future IANA performance metrics and operational
+     procedures, as they have in the past.
+  
+!    As no services are expected to change, no continuity issuees are
+     anticipated, and there are no new technical or operational methods
+     proposed by the IETF to test.  The IETF leadership, ICANN, and the
+     RIRs maintain an ongoing informal dialog to spot any unforeseen
+--- 737,743 ----
+     ICANN to establish future IANA performance metrics and operational
+     procedures, as they have in the past.
+  
+!    As no services are expected to change, no continuity issues are
+     anticipated, and there are no new technical or operational methods
+     proposed by the IETF to test.  The IETF leadership, ICANN, and the
+     RIRs maintain an ongoing informal dialog to spot any unforeseen
+***************
+*** 722,735 ****
+     >>>
+  
+  
+- 
+- 
+- 
+- Lear & Housley           Expires April 19, 2015                [Page 13]
+- 
+- Internet-Draft             IANA ICG Response                October 2014
+- 
+- 
+     IETF Response:
+  
+     Everyone is welcome to participate in IETF activities.  The policies
+--- 757,762 ----
+***************
+*** 751,756 ****
+--- 778,791 ----
+  
+     The DNS relies on some of the IETF protocol parameters registries.
+     As the current IANA functions operator, ICANN performs its task very
++ 
++ 
++ 
++ Lear & Housley           Expires April 28, 2015                [Page 14]
++ 
++ Internet-Draft             IANA ICG Response                October 2014
++ 
++ 
+     well, usually exceeding the service level agreement metrics.[METRICS]
+     Security, stability, and resiliency of the Internet DNS is best
+     protected by maintaining the current service in its current form.
+***************
+*** 764,774 ****
+     IETF Response:
+  
+     Implementers and their users from around the world make use of the
+!    IETF standards and the associated IANA protocol parameter registries.
+!    The current IANA protocol parameter registry system is meeting the
+!    needs of these global customers.  This proposal continues to meet
+!    their needs by maintaining the existing processes that have served
+!    them well in the past.
+  
+     >>>
+  
+--- 799,809 ----
+     IETF Response:
+  
+     Implementers and their users from around the world make use of the
+!    IETF standards and the associated IANA protocol parameters
+!    registries.  The current IANA protocol parameters registries system
+!    is meeting the needs of these global customers.  This proposal
+!    continues to meet their needs by maintaining the existing processes
+!    that have served them well in the past.
+  
+     >>>
+  
+***************
+*** 779,804 ****
+  
+     IETF Response:
+  
+- 
+- 
+- Lear & Housley           Expires April 19, 2015                [Page 14]
+- 
+- Internet-Draft             IANA ICG Response                October 2014
+- 
+- 
+     This proposal maintains the existing open framework that allows
+     anyone to participate in the development of IETF standards, including
+!    the IANA protocol parameter registry policies.  Further, an
+     implementer anywhere in the world has full access to the protocol
+!    specification published in the RFC series and the protocol parameter
+     registries published at iana.org.  Those who require assignments in
+     the IANA protocol registries will continue to be able to do so, as
+     specified by the existing policies for those registries.
+  
+-    {We will have an open discussion, make changes based on that
+-    discussion, and then conduct a Last Call to confirm that there is
+-    rough consensus for the proposal.}
+- 
+     >>>
+     >>> VI.  Community Process
+     >>>
+--- 814,828 ----
+  
+     IETF Response:
+  
+     This proposal maintains the existing open framework that allows
+     anyone to participate in the development of IETF standards, including
+!    the IANA protocol parameters registries policies.  Further, an
+     implementer anywhere in the world has full access to the protocol
+!    specification published in the RFC series and the protocol parameters
+     registries published at iana.org.  Those who require assignments in
+     the IANA protocol registries will continue to be able to do so, as
+     specified by the existing policies for those registries.
+  
+     >>>
+     >>> VI.  Community Process
+     >>>
+***************
+*** 810,815 ****
+--- 834,847 ----
+     >>>
+  
+  
++ 
++ 
++ 
++ Lear & Housley           Expires April 28, 2015                [Page 15]
++ 
++ Internet-Draft             IANA ICG Response                October 2014
++ 
++ 
+     IETF Response:
+  
+     The IESG established the IANAPLAN working group to develop this
+***************
+*** 834,847 ****
+     Creation of an open mailing list to discuss the transition:  http://w
+        ww.ietf.org/mail-archive/web/ietf-announce/current/msg12978.html
+  
+- 
+- 
+- 
+- Lear & Housley           Expires April 19, 2015                [Page 15]
+- 
+- Internet-Draft             IANA ICG Response                October 2014
+- 
+- 
+     Announcement of a public session on the transition:  http://
+        www.ietf.org/mail-archive/web/ietf-announce/current/msg13028.html
+  
+--- 866,871 ----
+***************
+*** 865,870 ****
+--- 889,903 ----
+  
+  4.  Security Considerations
+  
++ 
++ 
++ 
++ 
++ Lear & Housley           Expires April 28, 2015                [Page 16]
++ 
++ Internet-Draft             IANA ICG Response                October 2014
++ 
++ 
+     While the IANA framework has shown strong resiliency, the IETF will
+     continue to work with all relevant parties to facilitate improvements
+     in our standards.
+***************
+*** 878,884 ****
+     the IAB IANA Strategy Program and the IETF IANAPLAN WG.  Particular
+     thanks go to Jari Arkko, John Klensin, Andrei Robachevsky, Andrew
+     Sullivan, Leslie Daigle, Barry Leiba, Brian Carpenter, Greg Wood,
+!    John Curran, and Milton Mueller.
+  
+  6.  Informative References
+  
+--- 911,918 ----
+     the IAB IANA Strategy Program and the IETF IANAPLAN WG.  Particular
+     thanks go to Jari Arkko, John Klensin, Andrei Robachevsky, Andrew
+     Sullivan, Leslie Daigle, Barry Leiba, Brian Carpenter, Greg Wood,
+!    John Curran, Milton Mueller, Alissa Cooper, Andrei Robachevsky, and
+!    Miles Fidelman.
+  
+  6.  Informative References
+  
+***************
+*** 890,903 ****
+                <http://iaoc.ietf.org/contracts.html>.
+  
+     [NTIA-Contract]
+- 
+- 
+- 
+- Lear & Housley           Expires April 19, 2015                [Page 16]
+- 
+- Internet-Draft             IANA ICG Response                October 2014
+- 
+- 
+                , "The NTIA Contract with ICANN", , <http://
+                www.ntia.doc.gov/files/ntia/publications/
+                sf_26_pg_1-2-final_award_and_sacs.pdf>.
+--- 924,929 ----
+***************
+*** 920,929 ****
+--- 946,966 ----
+                Understanding Concerning the Technical Work of the
+                Internet Assigned Numbers Authority", RFC 2860, June 2000.
+  
++ 
++ 
++ 
++ Lear & Housley           Expires April 28, 2015                [Page 17]
++ 
++ Internet-Draft             IANA ICG Response                October 2014
++ 
++ 
+     [RFC3172]  Huston, G., "Management Guidelines & Operational
+                Requirements for the Address and Routing Parameter Area
+                Domain ("arpa")", BCP 52, RFC 3172, September 2001.
+  
++    [RFC3307]  Haberman, B., "Allocation Guidelines for IPv6 Multicast
++               Addresses", RFC 3307, August 2002.
++ 
+     [RFC3595]  Wijnen, B., "Textual Conventions for IPv6 Flow Label", RFC
+                3595, September 2003.
+  
+***************
+*** 935,944 ****
+--- 972,988 ----
+                Administrative Support Activity (IASA)", BCP 101, RFC
+                4071, April 2005.
+  
++    [RFC4193]  Hinden, R. and B. Haberman, "Unique Local IPv6 Unicast
++               Addresses", RFC 4193, October 2005.
++ 
+     [RFC5226]  Narten, T. and H. Alvestrand, "Guidelines for Writing an
+                IANA Considerations Section in RFCs", BCP 26, RFC 5226,
+                May 2008.
+  
++    [RFC5771]  Cotton, M., Vegoda, L., and D. Meyer, "IANA Guidelines for
++               IPv4 Multicast Address Assignments", BCP 51, RFC 5771,
++               March 2010.
++ 
+     [RFC6220]  McPherson, D., Kolkman, O., Klensin, J., Huston, G.,
+                Internet Architecture Board, "Defining the Role and
+                Function of IETF Protocol Parameter Registry Operators",
+***************
+*** 947,959 ****
+     [RFC6761]  Cheshire, S. and M. Krochmal, "Special-Use Domain Names",
+                RFC 6761, February 2013.
+  
+- 
+- 
+- Lear & Housley           Expires April 19, 2015                [Page 17]
+- 
+- Internet-Draft             IANA ICG Response                October 2014
+- 
+- 
+     [RFC6793]  Vohra, Q. and E. Chen, "BGP Support for Four-Octet
+                Autonomous System (AS) Number Space", RFC 6793, December
+                2012.
+--- 991,996 ----
+***************
+*** 966,978 ****
+                "Special-Purpose IP Address Registries", BCP 153, RFC
+                6890, April 2013.
+  
+     [RFC7282]  Resnick, P., "On Consensus and Humming in the IETF", RFC
+                7282, June 2014.
+  
+! Appendix A.  Changes since -00
+  
+     NOTE: This section to be removed by RFC Editor at publication.
+  
+     o  Front matter greatly reduced.
+  
+     o  Appendices with charter and RFP added.
+--- 1003,1036 ----
+                "Special-Purpose IP Address Registries", BCP 153, RFC
+                6890, April 2013.
+  
++ 
++ 
++ Lear & Housley           Expires April 28, 2015                [Page 18]
++ 
++ Internet-Draft             IANA ICG Response                October 2014
++ 
++ 
++    [RFC7020]  Housley, R., Curran, J., Huston, G., and D. Conrad, "The
++               Internet Numbers Registry System", RFC 7020, August 2013.
++ 
++    [RFC7249]  Housley, R., "Internet Numbers Registries", RFC 7249, May
++               2014.
++ 
+     [RFC7282]  Resnick, P., "On Consensus and Humming in the IETF", RFC
+                7282, June 2014.
+  
+! Appendix A.  Changes
+  
+     NOTE: This section to be removed by RFC Editor at publication.
+  
++ A.1.  Changes from -01 to -02
++ 
++    o  A better description special registries and BGP ASNs.
++ 
++    o  Clarity on how the address space and ASNs are delegated.
++ 
++ A.2.  Changes from -00 to -01
++ 
+     o  Front matter greatly reduced.
+  
+     o  Appendices with charter and RFP added.
+***************
+*** 1003,1011 ****
+  
+  
+  
+! 
+! 
+! Lear & Housley           Expires April 19, 2015                [Page 18]
+  
+  Internet-Draft             IANA ICG Response                October 2014
+  
+--- 1061,1067 ----
+  
+  
+  
+! Lear & Housley           Expires April 28, 2015                [Page 19]
+  
+  Internet-Draft             IANA ICG Response                October 2014
+  
+***************
+*** 1061,1067 ****
+  
+  
+  
+! Lear & Housley           Expires April 19, 2015                [Page 19]
+  
+  Internet-Draft             IANA ICG Response                October 2014
+  
+--- 1117,1123 ----
+  
+  
+  
+! Lear & Housley           Expires April 28, 2015                [Page 20]
+  
+  Internet-Draft             IANA ICG Response                October 2014
+  
+***************
+*** 1117,1123 ****
+  
+  
+  
+! Lear & Housley           Expires April 19, 2015                [Page 20]
+  
+  Internet-Draft             IANA ICG Response                October 2014
+  
+--- 1173,1179 ----
+  
+  
+  
+! Lear & Housley           Expires April 28, 2015                [Page 21]
+  
+  Internet-Draft             IANA ICG Response                October 2014
+  
+***************
+*** 1173,1179 ****
+  
+  
+  
+! Lear & Housley           Expires April 19, 2015                [Page 21]
+  
+  Internet-Draft             IANA ICG Response                October 2014
+  
+--- 1229,1235 ----
+  
+  
+  
+! Lear & Housley           Expires April 28, 2015                [Page 22]
+  
+  Internet-Draft             IANA ICG Response                October 2014
+  
+***************
+*** 1229,1235 ****
+  
+  
+  
+! Lear & Housley           Expires April 19, 2015                [Page 22]
+  
+  Internet-Draft             IANA ICG Response                October 2014
+  
+--- 1285,1291 ----
+  
+  
+  
+! Lear & Housley           Expires April 28, 2015                [Page 23]
+  
+  Internet-Draft             IANA ICG Response                October 2014
+  
+***************
+*** 1285,1291 ****
+  
+  
+  
+! Lear & Housley           Expires April 19, 2015                [Page 23]
+  
+  Internet-Draft             IANA ICG Response                October 2014
+  
+--- 1341,1347 ----
+  
+  
+  
+! Lear & Housley           Expires April 28, 2015                [Page 24]
+  
+  Internet-Draft             IANA ICG Response                October 2014
+  
+***************
+*** 1341,1347 ****
+  
+  
+  
+! Lear & Housley           Expires April 19, 2015                [Page 24]
+  
+  Internet-Draft             IANA ICG Response                October 2014
+  
+--- 1397,1403 ----
+  
+  
+  
+! Lear & Housley           Expires April 28, 2015                [Page 25]
+  
+  Internet-Draft             IANA ICG Response                October 2014
+  
+***************
+*** 1397,1403 ****
+  
+  
+  
+! Lear & Housley           Expires April 19, 2015                [Page 25]
+  
+  Internet-Draft             IANA ICG Response                October 2014
+  
+--- 1453,1459 ----
+  
+  
+  
+! Lear & Housley           Expires April 28, 2015                [Page 26]
+  
+  Internet-Draft             IANA ICG Response                October 2014
+  
+***************
+*** 1453,1459 ****
+  
+  
+  
+! Lear & Housley           Expires April 19, 2015                [Page 26]
+  
+  Internet-Draft             IANA ICG Response                October 2014
+  
+--- 1509,1515 ----
+  
+  
+  
+! Lear & Housley           Expires April 28, 2015                [Page 27]
+  
+  Internet-Draft             IANA ICG Response                October 2014
+  
+***************
+*** 1508,1511 ****
+  
+  
+  
+! Lear & Housley           Expires April 19, 2015                [Page 27]
+--- 1564,1567 ----
+  
+  
+  
+! Lear & Housley           Expires April 28, 2015                [Page 28]

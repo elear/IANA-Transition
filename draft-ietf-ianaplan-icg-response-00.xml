@@ -28,7 +28,7 @@
 <?rfc strict="yes" ?>
 <?rfc linkmailto="yes" ?>
 
-<rfc ipr="trust200902" docName="draft-lear-iana-icg-response-01" category="info">
+<rfc ipr="trust200902" docName="draft-ietf-ianaplan-icg-response-00" category="info">
 
   <front>
     <title abbrev="IANA ICG Response">
@@ -257,7 +257,7 @@ In the interest of completeness and consistency, proposals should
 <t>
 <figure><artwork><![CDATA[
 >>>
->>> I. Description of Community’s Use of IANA Functions</t>
+>>> I. Description of Community’s Use of IANA Functions
 >>>
 >>> This section should list the specific, distinct IANA services
 >>> or activities your community relies on. For each IANA service

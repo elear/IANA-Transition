@@ -4,13 +4,13 @@
 
 IANAPLAN                                                    E. Lear, Ed.
 Internet-Draft                                           R. Housley, Ed.
-Intended status: Informational                        September 12, 2014
-Expires: March 16, 2015
+Intended status: Informational                          October 06, 2014
+Expires: April 09, 2015
 
 
 Draft Response to the Internet Coordination Group Request for Proposals
                                 on IANA
-                    draft-lear-iana-icg-response-01
+                  draft-ietf-ianaplan-icg-response-00
 
 Abstract
 
@@ -37,7 +37,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on March 16, 2015.
+   This Internet-Draft will expire on April 09, 2015.
 
 Copyright Notice
 
@@ -53,9 +53,9 @@ Copyright Notice
 
 
 
-Lear & Housley           Expires March 16, 2015                 [Page 1]
+Lear & Housley           Expires April 09, 2015                 [Page 1]
 
-Internet-Draft             IANA ICG Response              September 2014
+Internet-Draft             IANA ICG Response                October 2014
 
 
    include Simplified BSD License text as described in Section 4.e of
@@ -109,9 +109,9 @@ Table of Contents
 
 
 
-Lear & Housley           Expires March 16, 2015                 [Page 2]
+Lear & Housley           Expires April 09, 2015                 [Page 2]
 
-Internet-Draft             IANA ICG Response              September 2014
+Internet-Draft             IANA ICG Response                October 2014
 
 
 2.  The Formal RFP Response
@@ -165,9 +165,9 @@ Internet-Draft             IANA ICG Response              September 2014
 
 
 
-Lear & Housley           Expires March 16, 2015                 [Page 3]
+Lear & Housley           Expires April 09, 2015                 [Page 3]
 
-Internet-Draft             IANA ICG Response              September 2014
+Internet-Draft             IANA ICG Response                October 2014
 
 
    The following link provides information about ongoing community
@@ -221,9 +221,9 @@ Internet-Draft             IANA ICG Response              September 2014
 
 
 
-Lear & Housley           Expires March 16, 2015                 [Page 4]
+Lear & Housley           Expires April 09, 2015                 [Page 4]
 
-Internet-Draft             IANA ICG Response              September 2014
+Internet-Draft             IANA ICG Response                October 2014
 
 
    Communities are requested to describe the elements delineated in the
@@ -258,7 +258,7 @@ Internet-Draft             IANA ICG Response              September 2014
    represents the views of the Internet Architecture Board and the IETF.
 
    >>>
-   >>> I. Description of Community's Use of IANA Functions</t>
+   >>> I. Description of Community's Use of IANA Functions
    >>>
    >>> This section should list the specific, distinct IANA services
    >>> or activities your community relies on. For each IANA service
@@ -277,9 +277,9 @@ Internet-Draft             IANA ICG Response              September 2014
 
 
 
-Lear & Housley           Expires March 16, 2015                 [Page 5]
+Lear & Housley           Expires April 09, 2015                 [Page 5]
 
-Internet-Draft             IANA ICG Response              September 2014
+Internet-Draft             IANA ICG Response                October 2014
 
 
    implementations, and to promote universal interoperability, these
@@ -333,9 +333,9 @@ Internet-Draft             IANA ICG Response              September 2014
 
 
 
-Lear & Housley           Expires March 16, 2015                 [Page 6]
+Lear & Housley           Expires April 09, 2015                 [Page 6]
 
-Internet-Draft             IANA ICG Response              September 2014
+Internet-Draft             IANA ICG Response                October 2014
 
 
    The protocol parameter registries are the product of IETF work.
@@ -389,9 +389,9 @@ Internet-Draft             IANA ICG Response              September 2014
 
 
 
-Lear & Housley           Expires March 16, 2015                 [Page 7]
+Lear & Housley           Expires April 09, 2015                 [Page 7]
 
-Internet-Draft             IANA ICG Response              September 2014
+Internet-Draft             IANA ICG Response                October 2014
 
 
    >>>
@@ -445,9 +445,9 @@ Internet-Draft             IANA ICG Response              September 2014
 
 
 
-Lear & Housley           Expires March 16, 2015                 [Page 8]
+Lear & Housley           Expires April 09, 2015                 [Page 8]
 
-Internet-Draft             IANA ICG Response              September 2014
+Internet-Draft             IANA ICG Response                October 2014
 
 
    >>>
@@ -501,9 +501,9 @@ Internet-Draft             IANA ICG Response              September 2014
 
 
 
-Lear & Housley           Expires March 16, 2015                 [Page 9]
+Lear & Housley           Expires April 09, 2015                 [Page 9]
 
-Internet-Draft             IANA ICG Response              September 2014
+Internet-Draft             IANA ICG Response                October 2014
 
 
    >>>
@@ -557,9 +557,9 @@ Internet-Draft             IANA ICG Response              September 2014
 
 
 
-Lear & Housley           Expires March 16, 2015                [Page 10]
+Lear & Housley           Expires April 09, 2015                [Page 10]
 
-Internet-Draft             IANA ICG Response              September 2014
+Internet-Draft             IANA ICG Response                October 2014
 
 
    >>> extent to which the output of the mechanism is transparent and
@@ -613,9 +613,9 @@ Internet-Draft             IANA ICG Response              September 2014
 
 
 
-Lear & Housley           Expires March 16, 2015                [Page 11]
+Lear & Housley           Expires April 09, 2015                [Page 11]
 
-Internet-Draft             IANA ICG Response              September 2014
+Internet-Draft             IANA ICG Response                October 2014
 
 
    >>> replacement should be explained and all of the elements listed
@@ -669,9 +669,9 @@ Internet-Draft             IANA ICG Response              September 2014
 
 
 
-Lear & Housley           Expires March 16, 2015                [Page 12]
+Lear & Housley           Expires April 09, 2015                [Page 12]
 
-Internet-Draft             IANA ICG Response              September 2014
+Internet-Draft             IANA ICG Response                October 2014
 
 
    2.  The protocol parameter registry function requires openness,
@@ -725,9 +725,9 @@ Internet-Draft             IANA ICG Response              September 2014
 
 
 
-Lear & Housley           Expires March 16, 2015                [Page 13]
+Lear & Housley           Expires April 09, 2015                [Page 13]
 
-Internet-Draft             IANA ICG Response              September 2014
+Internet-Draft             IANA ICG Response                October 2014
 
 
    management of the protocol parameter registry operator, as well as
@@ -781,9 +781,9 @@ Internet-Draft             IANA ICG Response              September 2014
 
 
 
-Lear & Housley           Expires March 16, 2015                [Page 14]
+Lear & Housley           Expires April 09, 2015                [Page 14]
 
-Internet-Draft             IANA ICG Response              September 2014
+Internet-Draft             IANA ICG Response                October 2014
 
 
    As no services are expected to change, no continuity issuees are
@@ -837,9 +837,9 @@ Internet-Draft             IANA ICG Response              September 2014
 
 
 
-Lear & Housley           Expires March 16, 2015                [Page 15]
+Lear & Housley           Expires April 09, 2015                [Page 15]
 
-Internet-Draft             IANA ICG Response              September 2014
+Internet-Draft             IANA ICG Response                October 2014
 
 
    Implementers and their users from around the world make use of the
@@ -893,9 +893,9 @@ Internet-Draft             IANA ICG Response              September 2014
 
 
 
-Lear & Housley           Expires March 16, 2015                [Page 16]
+Lear & Housley           Expires April 09, 2015                [Page 16]
 
-Internet-Draft             IANA ICG Response              September 2014
+Internet-Draft             IANA ICG Response                October 2014
 
 
    >>>
@@ -949,9 +949,9 @@ Internet-Draft             IANA ICG Response              September 2014
 
 
 
-Lear & Housley           Expires March 16, 2015                [Page 17]
+Lear & Housley           Expires April 09, 2015                [Page 17]
 
-Internet-Draft             IANA ICG Response              September 2014
+Internet-Draft             IANA ICG Response                October 2014
 
 
    the IAB IANA Strategy Program and the IETF IANAPLAN WG.  Particular
@@ -1005,9 +1005,9 @@ Internet-Draft             IANA ICG Response              September 2014
 
 
 
-Lear & Housley           Expires March 16, 2015                [Page 18]
+Lear & Housley           Expires April 09, 2015                [Page 18]
 
-Internet-Draft             IANA ICG Response              September 2014
+Internet-Draft             IANA ICG Response                October 2014
 
 
    [RFC3777]  Galvin, J., "IAB and IESG Selection, Confirmation, and
@@ -1061,9 +1061,9 @@ Authors' Addresses
 
 
 
-Lear & Housley           Expires March 16, 2015                [Page 19]
+Lear & Housley           Expires April 09, 2015                [Page 19]
 
-Internet-Draft             IANA ICG Response              September 2014
+Internet-Draft             IANA ICG Response                October 2014
 
 
    Russ Housley (editor)
@@ -1116,4 +1116,4 @@ Internet-Draft             IANA ICG Response              September 2014
 
 
 
-Lear & Housley           Expires March 16, 2015                [Page 20]
+Lear & Housley           Expires April 09, 2015                [Page 20]

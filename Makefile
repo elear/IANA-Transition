@@ -1,6 +1,6 @@
 
-DOCS=   draft-lear-iana-icg-response-01.txt \
-	draft-lear-iana-icg-response-01.html
+DOCS=   draft-ietf-ianaplan-icg-response-03.txt \
+	draft-ietf-ianaplan-icg-response-03.html
 
 all: $(DOCS)
 
